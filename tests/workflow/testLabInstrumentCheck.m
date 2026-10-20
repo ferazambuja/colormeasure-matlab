@@ -97,7 +97,7 @@ output=evalc('[r,s]=run(t,''CR250'',a,io,interaction);');
 verifyTrue(t,s.finished);verifyEqual(t,r.status,'report-error');verifyFalse(t,isfile(r.archive));
 verifyTrue(t,isfolder(r.archive));
 verifyEqual(t,count(output,'Could not complete report ZIP:'),1);
-verifyFalse(t,contains(output,'Review and send this ZIP'));
+verifyFalse(t,contains(output,'Report ZIP:'));
 verifyEmpty(t,dir(fullfile(t.TestData.folder,'*.part.zip')));
 json=jsondecode(fileread(fullfile(r.folder,'report.json')));verifyEqual(t,json.status,'report-error');
     function text=blockArchive()
@@ -114,7 +114,7 @@ output=evalc('[r,s]=run(t,''CR250'',a,io,interaction);');
 verifyTrue(t,s.finished);verifyEqual(t,r.status,'report-error');
 verifyEqual(t,fileread(r.archive),marker);
 verifyEqual(t,count(output,'Could not complete report ZIP:'),1);
-verifyFalse(t,contains(output,'Review and send this ZIP'));
+verifyFalse(t,contains(output,'Report ZIP:'));
 verifyEmpty(t,dir(fullfile(t.TestData.folder,'*.part.zip')));
 data=load(fullfile(r.folder,'diagnostic.mat'));
 verifyEqual(t,data.measurements,s.measurements);verifyEqual(t,data.report.status,'report-error');

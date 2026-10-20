@@ -99,7 +99,7 @@ try
         startStep(reading+2);
         requireConfirmation(sprintf(['Reading %d of 3: keep the same target steady. ' ...
             'Start this measurement now? Cancel stops the check without another reading.'],reading));
-        ok = session.measure(sprintf('Lab check %d',reading),'Guided student instrument check');
+        ok = session.measure(sprintf('Lab check %d',reading),'Guided instrument check');
         assert(ok&&numel(session.measurements)==reading,'Measurement:CheckReading', ...
             'Reading failed or was not retained. See the session log.');
         assert(~session.chartIoUnconfirmed,'Measurement:CheckCleanup', ...
@@ -201,9 +201,12 @@ archiveReport(); clear cleanup
             staged=[tempname(reportParent) '.part.zip'];
             stagedCleanup=onCleanup(@()removeStagedArchive(staged));
             zip(staged,{stem},reportParent);
-            % Match exclusive MAT publication: an occupied name is never replaced.
-            java.nio.file.Files.createLink(java.io.File(archivePath).toPath(), ...
-                java.io.File(staged).toPath());
+            % Never replace an occupied name. The reserved folder makes the name
+            % unique, so a checked move suffices; unlike a hard link it also
+            % works on exFAT, FAT32 and SMB folders.
+            assert(~isfile(archivePath)&&~isfolder(archivePath),'Measurement:CheckReportExists', ...
+                'A file or folder already uses the report ZIP name: %s',archivePath);
+            movefile(staged,archivePath);
             clear stagedCleanup
             fprintf('\nInstrument check: %s\nReport ZIP:\n%s\n',report.status,archivePath);
             fprintf('Review before sharing: includes readings, device details and local paths. Nothing was uploaded.\n');
