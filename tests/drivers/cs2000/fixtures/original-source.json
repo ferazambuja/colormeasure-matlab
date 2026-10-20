@@ -1,0 +1,77 @@
+{
+  "sourceCommit": "ce4e63f19ad54617478ff84791483deec920532d",
+  "files": [
+    {
+      "path": "Devices/MinoltaCS2000/CS2000.m",
+      "sha256": "372a01499e7d347272f27e2b82b4ad67cc6d6e6dcbe25d2383ff834cd8d47318"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/CS2000Gonio.m",
+      "sha256": "9522879b45ec758e2ba0a0bab24f13ad567ce1a7f6b5dfcc6db6a7c6fd2f047f"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/CS2000manual.m",
+      "sha256": "c0abf61c62e03a41c70a38a33477e2b612196e2d342eb92a2352ca186236fd20"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/CS2000strobe.m",
+      "sha256": "9ac677818cceab3c5a90bf5b1da8fa1d96cac66705516887fa5787094fa5dff8"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/README.md",
+      "sha256": "8f3e03bcdb7554e517d8a093fd6e873992c942be6b947dfc596987a23dfb3d43"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Share/Angle2Vec.m",
+      "sha256": "6e7489bf4ce4f54891bbaac0da52cd239e080ffbda7411ea71314b382e0a3813"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Share/COMClass.m",
+      "sha256": "666e293ead3a8a35848173b565d3f802012eb460836d19aac667e5cea4163fa9"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Share/Demo.m",
+      "sha256": "7a02d8db3f02bdbb65a1af1fbd8940f1d570f4749af2fea669d5fbacd0131c86"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Share/GonioMeasurementDevice.m",
+      "sha256": "a9cff03f53fe4f46e50055f4a7559cfbfe2932401c65b3da3dc08630ab8228c4"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Share/MeasurementAngle2DeviceAngle.m",
+      "sha256": "3c5e6d2675fa591c1069da3ee3cc9067087fd0cdabdb58819d278379b26a27b9"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Share/MountRemoteDir.m",
+      "sha256": "d10a808e53b42cd6915179a27d9a2f14b6c5530fb6a8ecaae0264ea1637018e3"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Share/ParseConfigFile.m",
+      "sha256": "b73e4294d926a8c357d435574ea4236042f94bc6413760c8d09e0686a275a0f5"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Share/Setup.m",
+      "sha256": "8a3fd2595806f2310f4f041898a6df998181a547c985614237317959a4443865"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Share/UnmountRemoteDir.m",
+      "sha256": "305dbc6fff8a5cfbe26b05dd3ee2428c7aa6d5e40a86748ada38e127699f19d1"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Share/Vec2Angle.m",
+      "sha256": "7b5ea487281662f7c62ae94ad32ee111b3854bf514268781267bd7f108f737be"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Share/test.xls",
+      "sha256": "33494d850e28cc3063123247b49b5cf21d870717e01c77e8922511d50cfafe43"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/Spectroradiometer.m",
+      "sha256": "66c53ca15e60cc6e9185a10c14495cec17f841c383e5a757ee799ba3e28bd9c9"
+    },
+    {
+      "path": "Devices/MinoltaCS2000/cs2000_example_code.m",
+      "sha256": "b9ab3f53f99fda8ee109a2c50c6cb0dc1ca649516e7b7eaf2c95fd57ede13224"
+    }
+  ]
+}

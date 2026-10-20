@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style id="helpStyle"></style>
+<script>
+// Static dialog bridge. Data contains only markup escaped by helpHtml.m.
+// https://www.mathworks.com/help/matlab/ref/uihtml.html
+function setup(htmlComponent) {
+    function render() {
+        const markup = htmlComponent.Data;
+        if (typeof markup !== "string") return;
+        const content = new DOMParser().parseFromString(markup, "text/html");
+        const previousTitle = document.querySelector("main")?.getAttribute("aria-label");
+        const nextTitle = content.querySelector("main")?.getAttribute("aria-label");
+        document.getElementById("helpStyle").textContent = content.querySelector("style").textContent;
+        document.body.replaceChildren(...Array.from(content.body.childNodes));
+        // A new topic starts at its heading. Refreshing the same topic,
+        // including a theme change, preserves the reader's position.
+        if (previousTitle !== nextTitle) window.scrollTo(0, 0);
+    }
+    htmlComponent.addEventListener("DataChanged", render);
+    document.addEventListener("keydown", function(event) {
+        if (event.key !== "Escape" && !(event.metaKey && event.key === ".")) return;
+        event.preventDefault();
+        event.stopPropagation();
+        if (!event.repeat) htmlComponent.sendEventToMATLAB("dialogCloseKey", null);
+    }, true);
+    render();
+}
+</script>
+</head>
+<body></body>
+</html>

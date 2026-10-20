@@ -1,0 +1,14 @@
+*.m text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.mat -text
+*.mlx -text
+*.png -text
+# Preserve official CIE downloads exactly for checksum verification.
+resources/colorimetry/CIE_xyz_1931_2deg.csv -text whitespace=cr-at-eol
+resources/colorimetry/CIE_xyz_1931_2deg.csv_metadata.json -text whitespace=cr-at-eol
+resources/colorimetry/CIE_std_illum_*.csv -text whitespace=cr-at-eol
+resources/colorimetry/CIE_std_illum_*.json -text whitespace=cr-at-eol

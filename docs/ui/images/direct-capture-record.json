@@ -1,0 +1,37 @@
+{
+  "sourceCommit": "172cbf4d549023b50721b075667801059b3cf987",
+  "capturedAtUTC": "2026-10-15T20:35:28.486996+00:00",
+  "MATLABRelease": "R2026b",
+  "platform": "MACA64",
+  "captureMethod": "MATLAB getframe of actual R2026b windows from the extracted standalone ZIP; retained settings image uses its original capture",
+  "physicalInstrumentOperated": false,
+  "calibrationValidated": false,
+  "images": [
+    {
+      "file": "direct-serial-gallery.jpg",
+      "SHA256": "d265f6709dd4edd26708f32fc1716dfa0ab2790bc97a11ea046f148aa67d6b64",
+      "scene": "Twelve generated CR-250 readings, spectra and chromaticity",
+      "fileDescription": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1920x1260, components 3",
+      "sourceCommit": "172cbf4d549023b50721b075667801059b3cf987"
+    },
+    {
+      "file": "direct-serial-settings.jpg",
+      "SHA256": "390c46a2957bfe25e2d67982aecc08e4d7dd53b496b54dbc5804a6d8a48f535e",
+      "scene": "CR-250 synthetic settings readback and controls",
+      "fileDescription": "JPEG image data, JFIF standard 1.01, aspect ratio, density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=1], baseline, precision 8, 1440x1444, components 3",
+      "sourceCommit": "024cdb64249ed86df17c1436bbaacce137c18719",
+      "captureMethod": "CUA native app-window screenshot; settings view unchanged"
+    },
+    {
+      "file": "direct-serial-chart.jpg",
+      "SHA256": "2e7027c9fe5009f6d9f4181e421bfae180cebd88123543e33e3308bca757e01a",
+      "scene": "Classic guided chart, six synthetic readings retained",
+      "fileDescription": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1920x1260, components 3",
+      "sourceCommit": "172cbf4d549023b50721b075667801059b3cf987"
+    }
+  ],
+  "sourceFilesSHA256": {
+    "src/+colormeasure/+ui/Window.m": "961d7f0a5622340b50c173c491ec04f369481a8ec9142a96cc93c01b5a069eaf",
+    "src/+colormeasure/+ui/ChartView.m": "1b718c998429defb7657ae58172e2c8be0958b7bb67704c46cfae8469d02ac69"
+  }
+}

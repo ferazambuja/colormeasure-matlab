@@ -1,0 +1,105 @@
+{
+  "sourceCommit": "5a0cd3568cdcb99794739392c7d1f646a8bf4ab6",
+  "sourceTree": "90dcf519ca13d69cb5e6179120b4acac022e7e70",
+  "MATLABRelease": "R2026b",
+  "MATLABVersion": "26.2.0.3386108 (R2026b)",
+  "platform": "MACA64",
+  "captureMethod": "getframe from one separate guarded MATLAB process; restored product windows",
+  "capturedAtUTC": "2026-10-06T02:20:05.797589+00:00",
+  "physicalInstrumentOperated": false,
+  "nativeInputValidated": false,
+  "screenReaderValidated": false,
+  "images": [
+    {
+      "file": "pr655-adaptation.png",
+      "SHA256": "3b5d7d38fb69828f6fb1b7a8f22deb094f2f1840872a35acaaf28d6d2431a5c6",
+      "modelOrPersona": "PR655",
+      "dataOrigin": "synthetic adaptation",
+      "logicalWindowSize": [
+        1280,
+        840
+      ],
+      "imagePixelSize": [
+        1920,
+        1260
+      ],
+      "theme": "light",
+      "capturedAtUTC": "2026-10-08T02:01:56.183Z",
+      "sourceCommit": "8032c93e751c9fca2dca6465a691fa0e27458b1f",
+      "sourceTree": "c0ace0410d2d732f631e6948a35ffb75032b0a80",
+      "MATLABRelease": "R2026b",
+      "MATLABVersion": "26.2.0.3386108 (R2026b)",
+      "platform": "MACA64",
+      "captureMethod": "getframe in one isolated guarded MATLAB process; callbacks, no native input",
+      "physicalInstrumentOperated": false,
+      "nativeInputValidated": false,
+      "screenReaderValidated": false
+    },
+    {
+      "file": "cr100-settings.png",
+      "SHA256": "90f596474ee126d5f2448b74deac67bb922cf78ee027b7a16566cf670114dcca",
+      "modelOrPersona": "CR100",
+      "dataOrigin": "synthetic settings readback",
+      "logicalWindowSize": [
+        960,
+        800
+      ],
+      "imagePixelSize": [
+        960,
+        800
+      ],
+      "theme": "light"
+    },
+    {
+      "file": "cr250-settings.png",
+      "SHA256": "a1af1449b6390657798110a0dae0ea0d761d8319ae2edda5081656bb8a116517",
+      "modelOrPersona": "CR250",
+      "dataOrigin": "synthetic settings readback",
+      "logicalWindowSize": [
+        960,
+        800
+      ],
+      "imagePixelSize": [
+        960,
+        800
+      ],
+      "theme": "light"
+    },
+    {
+      "file": "cr300-settings.png",
+      "SHA256": "6555aaa141897a3b3f9c843850a6c6ebf7c13df09daf0cdf0298866a76f50e0b",
+      "modelOrPersona": "CR300",
+      "dataOrigin": "synthetic settings readback",
+      "logicalWindowSize": [
+        960,
+        800
+      ],
+      "imagePixelSize": [
+        960,
+        800
+      ],
+      "theme": "light"
+    },
+    {
+      "file": "cs2000-settings.png",
+      "SHA256": "1bf7b1afd7578a22a7a47a4797bad6409333c335417aa05a892388609067b22b",
+      "modelOrPersona": "CS2000",
+      "dataOrigin": "synthetic settings readback",
+      "logicalWindowSize": [
+        960,
+        800
+      ],
+      "imagePixelSize": [
+        960,
+        800
+      ],
+      "theme": "light"
+    }
+  ],
+  "recordScope": "Historical capture metadata for the five illustrations shipped by the direct guides",
+  "originalCaptureRecord": {
+    "sourceCommit": "7f7b9618cf2b2f14b126314e310afe969a92009e",
+    "path": "docs/ui/images/capture-record.json",
+    "SHA256": "7737d0f38c8d4bf7b4ee44fd5e14346d38767e09778f90c5934aaa31df42dcd4"
+  }
+}

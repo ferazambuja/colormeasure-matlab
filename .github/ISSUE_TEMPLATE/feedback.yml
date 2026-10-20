@@ -1,0 +1,17 @@
+name: Problem or suggestion
+description: Share feedback about the demo, app, drivers or saved data.
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What did you try, and what happened?
+      description: For a problem, include steps, expected behavior and any error. Screenshots are welcome.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: MATLAB release and operating system
+      placeholder: MATLAB R2026b, macOS / Windows / Linux
+    validations:
+      required: true

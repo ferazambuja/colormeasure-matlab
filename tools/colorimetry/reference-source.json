@@ -1,0 +1,18 @@
+{
+  "project": "https://github.com/RIT-MCSL/MCSL-Tools",
+  "revision": "18106db15c223277c84cbc6b631c0df8330bafdc",
+  "files": [
+    {
+      "path": "Convert/spec2XYZ.m",
+      "sha256": "b7b34dadda06cfbbfc17ddd4c5cebf510fe0cb8647c198cd1349e34bc8ec6b7c"
+    },
+    {
+      "path": "Convert/getObserverFunction.m",
+      "sha256": "2dd5038f2ec6a27ffcae9ace12083d49f73ef56407eef405ef2b60b84c578a51"
+    },
+    {
+      "path": "Convert/ObsFunctions.mat",
+      "sha256": "84a47bcc10921983bf182004d06b6f9339003201d39d8e83b8841914918de925"
+    }
+  ]
+}

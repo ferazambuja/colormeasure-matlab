@@ -1,0 +1,396 @@
+{
+  "format": "chart-reference-illustrations",
+  "version": 1,
+  "definitionId": "colorchecker-classic",
+  "definitionRevision": "argyll-3.5.0-structure-v1",
+  "cells": [
+    {
+      "sourceLocation": "A1",
+      "available": true,
+      "XYZ": [
+        11.52184772874823,
+        10.08244855512475,
+        5.0889427916842305
+      ],
+      "reason": "",
+      "originalValues": [
+        37.99,
+        13.56,
+        14.06
+      ]
+    },
+    {
+      "sourceLocation": "A2",
+      "available": true,
+      "XYZ": [
+        39.17590441657178,
+        34.9503608319196,
+        19.22044586462831
+      ],
+      "reason": "",
+      "originalValues": [
+        65.71,
+        18.13,
+        17.81
+      ]
+    },
+    {
+      "sourceLocation": "A3",
+      "available": true,
+      "XYZ": [
+        16.806452194694465,
+        18.360109184532483,
+        25.710849016772972
+      ],
+      "reason": "",
+      "originalValues": [
+        49.93,
+        -4.88,
+        -21.93
+      ]
+    },
+    {
+      "sourceLocation": "A4",
+      "available": true,
+      "XYZ": [
+        10.906907253378112,
+        13.251651099368573,
+        5.290393313765571
+      ],
+      "reason": "",
+      "originalValues": [
+        43.14,
+        -13.1,
+        21.91
+      ]
+    },
+    {
+      "sourceLocation": "A5",
+      "available": true,
+      "XYZ": [
+        24.18974103531503,
+        23.036583387426194,
+        33.42948292678432
+      ],
+      "reason": "",
+      "originalValues": [
+        55.11,
+        8.84,
+        -25.4
+      ]
+    },
+    {
+      "sourceLocation": "A6",
+      "available": true,
+      "XYZ": [
+        30.42290414619991,
+        41.781481946779294,
+        34.60426318850001
+      ],
+      "reason": "",
+      "originalValues": [
+        70.72,
+        -33.4,
+        -0.2
+      ]
+    },
+    {
+      "sourceLocation": "B1",
+      "available": true,
+      "XYZ": [
+        40.716933178383805,
+        31.18084343197752,
+        4.991906858069956
+      ],
+      "reason": "",
+      "originalValues": [
+        62.66,
+        36.07,
+        57.1
+      ]
+    },
+    {
+      "sourceLocation": "B2",
+      "available": true,
+      "XYZ": [
+        12.325832956440129,
+        11.263032720181231,
+        29.86628144621411
+      ],
+      "reason": "",
+      "originalValues": [
+        40.02,
+        10.41,
+        -45.96
+      ]
+    },
+    {
+      "sourceLocation": "B3",
+      "available": true,
+      "XYZ": [
+        29.66703060793658,
+        19.372330772069375,
+        10.149501442078185
+      ],
+      "reason": "",
+      "originalValues": [
+        51.12,
+        48.24,
+        16.25
+      ]
+    },
+    {
+      "sourceLocation": "B4",
+      "available": true,
+      "XYZ": [
+        8.517104224994304,
+        6.371078158762658,
+        10.772544160682683
+      ],
+      "reason": "",
+      "originalValues": [
+        30.33,
+        22.98,
+        -21.59
+      ]
+    },
+    {
+      "sourceLocation": "B5",
+      "available": true,
+      "XYZ": [
+        35.358047323499946,
+        44.45262634262628,
+        8.946596471637953
+      ],
+      "reason": "",
+      "originalValues": [
+        72.53,
+        -23.71,
+        57.26
+      ]
+    },
+    {
+      "sourceLocation": "B6",
+      "available": true,
+      "XYZ": [
+        48.78145409228379,
+        43.56978493019394,
+        6.059473503589407
+      ],
+      "reason": "",
+      "originalValues": [
+        71.94,
+        19.36,
+        67.86
+      ]
+    },
+    {
+      "sourceLocation": "C1",
+      "available": true,
+      "XYZ": [
+        6.86136177148782,
+        5.752787075628357,
+        21.37544591705044
+      ],
+      "reason": "",
+      "originalValues": [
+        28.78,
+        14.18,
+        -50.3
+      ]
+    },
+    {
+      "sourceLocation": "C2",
+      "available": true,
+      "XYZ": [
+        14.983723286008333,
+        23.18267177159785,
+        7.897043008369121
+      ],
+      "reason": "",
+      "originalValues": [
+        55.26,
+        -38.34,
+        31.37
+      ]
+    },
+    {
+      "sourceLocation": "C3",
+      "available": true,
+      "XYZ": [
+        21.63062370312724,
+        12.564766710914753,
+        3.8458591496233554
+      ],
+      "reason": "",
+      "originalValues": [
+        42.1,
+        53.38,
+        28.19
+      ]
+    },
+    {
+      "sourceLocation": "C4",
+      "available": true,
+      "XYZ": [
+        59.33540691600789,
+        59.801176562500004,
+        7.191031821204752
+      ],
+      "reason": "",
+      "originalValues": [
+        81.73,
+        4.04,
+        79.82
+      ]
+    },
+    {
+      "sourceLocation": "C5",
+      "available": true,
+      "XYZ": [
+        31.082304757500165,
+        20.09105117727254,
+        23.55862504110846
+      ],
+      "reason": "",
+      "originalValues": [
+        51.94,
+        49.99,
+        -14.57
+      ]
+    },
+    {
+      "sourceLocation": "C6",
+      "available": true,
+      "XYZ": [
+        13.610017352076634,
+        19.303143941941027,
+        30.93475656734107
+      ],
+      "reason": "",
+      "originalValues": [
+        51.04,
+        -28.63,
+        -28.64
+      ]
+    },
+    {
+      "sourceLocation": "D1",
+      "available": true,
+      "XYZ": [
+        87.8131889332672,
+        91.31597589230802,
+        73.9495970959136
+      ],
+      "reason": "",
+      "originalValues": [
+        96.54,
+        -0.43,
+        1.19
+      ]
+    },
+    {
+      "sourceLocation": "D2",
+      "available": true,
+      "XYZ": [
+        56.57267472861782,
+        58.94253743849688,
+        48.918368658578395
+      ],
+      "reason": "",
+      "originalValues": [
+        81.26,
+        -0.64,
+        -0.34
+      ]
+    },
+    {
+      "sourceLocation": "D3",
+      "available": true,
+      "XYZ": [
+        34.81326002897137,
+        36.32828516012597,
+        30.283492314230998
+      ],
+      "reason": "",
+      "originalValues": [
+        66.77,
+        -0.73,
+        -0.5
+      ]
+    },
+    {
+      "sourceLocation": "D4",
+      "available": true,
+      "XYZ": [
+        18.442093223614993,
+        19.15666929141981,
+        15.91372123625757
+      ],
+      "reason": "",
+      "originalValues": [
+        50.87,
+        -0.15,
+        -0.27
+      ]
+    },
+    {
+      "sourceLocation": "D5",
+      "available": true,
+      "XYZ": [
+        8.468331896185703,
+        8.832613722887366,
+        7.592109831037921
+      ],
+      "reason": "",
+      "originalValues": [
+        35.66,
+        -0.42,
+        -1.23
+      ]
+    },
+    {
+      "sourceLocation": "D6",
+      "available": true,
+      "XYZ": [
+        2.9893794658327484,
+        3.1051031033457717,
+        2.6818280019709233
+      ],
+      "reason": "",
+      "originalValues": [
+        20.46,
+        -0.08,
+        -0.97
+      ]
+    }
+  ],
+  "context": {
+    "observerId": "CIE1931_2deg",
+    "xyzUnits": "1",
+    "xyzScale": "relative; perfect-diffuser Y=100",
+    "whiteXYZ": [
+      96.4202880859375,
+      100.0,
+      82.49053955078125
+    ],
+    "illuminant": "D50",
+    "interpretation": "Argyll D50/1931 expected-color convention"
+  },
+  "provenance": {
+    "source": "ArgyllCMS 3.5.0 ref/ColorChecker.cie",
+    "sourceSHA256": "68d5ef73507a577fbe78ffac8576c9b1cf2e91a8f88d5099f7bba648b38266ec",
+    "created": "Feb 18, 2008",
+    "originalFields": [
+      "LAB_L",
+      "LAB_A",
+      "LAB_B"
+    ],
+    "originalFile": "resources/charts/sources/ColorChecker.cie",
+    "edition": "Historical reference; physical chart edition unverified",
+    "conditions": "Source has no explicit illuminant/observer keywords; interpreted using the pinned Classic Lab consumer convention, not specimen measurement conditions",
+    "historicalConsumerConvention": "Argyll scanin converts the Classic Lab table with ICC D50/1931",
+    "meaning": "Approximate expected reference illustration; not a measured specimen, accuracy standard or position-test reference",
+    "terms": "AGPL-3.0; resources/charts/ARGYLL-AGPL-3.0.txt"
+  }
+}

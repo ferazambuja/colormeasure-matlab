@@ -1,0 +1,83 @@
+{
+  "format": "chart-reference-sources",
+  "version": 1,
+  "generator": {
+    "path": "tools/charts/generateReferences.py",
+    "sha256": "53d0046fa31aa3fcdc17f335ff2c5bbe25c436ab138f4a579e419f5369dd5690"
+  },
+  "upstream": {
+    "release": "ArgyllCMS 3.5.0",
+    "archive": "https://www.argyllcms.com/Argyll_V3.5.0_src.zip",
+    "archiveSHA256": "f8576ce5589fd15620abb73ff049ea31f55ddbd1bba6d1ffa87452658e7bc85f",
+    "files": [
+      {
+        "path": "ref/ColorChecker.cie",
+        "sha256": "68d5ef73507a577fbe78ffac8576c9b1cf2e91a8f88d5099f7bba648b38266ec"
+      },
+      {
+        "path": "ref/ColorCheckerSG.ti2",
+        "sha256": "687a880a00ea0f732ddcd0c249ed9198d8fe015168acc3c13915b085b54a4f21"
+      },
+      {
+        "path": "ref/ReadMe.txt",
+        "sha256": "d86b4cb70d555b9f6387d0861367333b42f6529b672547948eb11f850ad7459a"
+      },
+      {
+        "path": "ref/License.txt",
+        "sha256": "432d251a78dbc966e6add13f9f3b40a53daca222208e50cb514cfc77e7d85af6"
+      },
+      {
+        "path": "spectro/chartread.c",
+        "sha256": "564d7efc32ee7f8973cc8fd82e666eed19ee0e559df0a57ccd824f7583e705c7"
+      },
+      {
+        "path": "scanin/scanin.c",
+        "sha256": "6faf7096285a7694e3d935aca0ed8f6ced3baf20f683f8740763a45dd5101831"
+      },
+      {
+        "path": "icc/icc_util.c",
+        "sha256": "e106aae34dceace237b0654682591d6dea7a7d2841e7ed1db16cd3e551f083f6"
+      }
+    ]
+  },
+  "interpretation": {
+    "classic": "scanin/scanin.c:1403-1408 converts .cie Lab using icmD50, then scales XYZ by 100",
+    "sg": "spectro/chartread.c:193 defines expected eXYZ on scale 100; :3128-3132 reads ti2 expected XYZ; :149-163 computes D50 Lab from XYZ/100. This consumer convention does not establish this source table basis; SG reference display is unavailable.",
+    "whiteAndObserver": "icc/icc_util.c:2080-2095 states 1931 observer and defines ICC-rounded D50 and D50*100",
+    "notEstablished": "Physical chart edition, specimen spectral reflectance, backing, geometry, measurement condition and reference accuracy"
+  },
+  "buildDependencies": [
+    {
+      "module": "color_measurement.cgats",
+      "sha256": "6b3779cf8bfe6ad49ca9c3ac2d28517a23be30ae70ce2aa3f99d7f9ae1dd920a"
+    },
+    {
+      "module": "color_measurement.science",
+      "sha256": "0d28d39a4e32af3b7ed12f28e4121b85caf25bd2803ca9f55645950ad25edc7d"
+    }
+  ],
+  "sourceTerms": {
+    "license": "AGPL-3.0",
+    "path": "resources/charts/ARGYLL-AGPL-3.0.txt",
+    "sha256": "432d251a78dbc966e6add13f9f3b40a53daca222208e50cb514cfc77e7d85af6"
+  },
+  "redistributionStatus": "Local copies authorized; external distribution not cleared; retain original data, source manifest and AGPL terms",
+  "files": [
+    {
+      "path": "resources/charts/classic-reference.json",
+      "sha256": "11f87523a0ac45d4f17c42196b122cc54ee63e85ce20c7c124be0e02fc98c2ef"
+    },
+    {
+      "path": "resources/charts/sources/ColorChecker.cie",
+      "sha256": "68d5ef73507a577fbe78ffac8576c9b1cf2e91a8f88d5099f7bba648b38266ec"
+    },
+    {
+      "path": "resources/charts/sg-reference.json",
+      "sha256": "9d08b8c2a63f17a99ddd51977859757f1d97ad4153ecda752f7db1557091ac29"
+    },
+    {
+      "path": "resources/charts/sources/ColorCheckerSG.ti2",
+      "sha256": "687a880a00ea0f732ddcd0c249ed9198d8fe015168acc3c13915b085b54a4f21"
+    }
+  ]
+}

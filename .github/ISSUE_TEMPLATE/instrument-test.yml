@@ -1,0 +1,43 @@
+name: Instrument test feedback
+description: Share a testLabInstrument result, whether it passed or failed.
+title: "Instrument test: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Run `testLabInstrument` from the extracted package folder.
+        The report ZIP is saved in Desktop → ColorMeasurement-Reports.
+        Review it before sharing: it may include readings, device details and local paths.
+        If no ZIP was created, paste the error instead.
+  - type: dropdown
+    id: instrument
+    attributes:
+      label: Instrument
+      options:
+        - PR-655
+        - PR-670
+        - CR-100
+        - CR-250
+        - CR-300
+        - CS-2000
+        - CS-2000A
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - Passed
+        - Failed
+        - Incomplete or cancelled
+        - Could not start
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Report or notes
+      description: Drag the ZIP here, or describe what happened. Include any error text.
+    validations:
+      required: true

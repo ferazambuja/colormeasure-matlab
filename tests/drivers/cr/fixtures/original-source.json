@@ -1,0 +1,56 @@
+{
+  "sourceCommit": "ce4e63f19ad54617478ff84791483deec920532d",
+  "files": [
+    {
+      "path": "Devices/Colorimetry_Research/CR100.m",
+      "sha256": "92848109b4a6df283fc42548c822176a3e459bf6f7b423708baeae5dd5c324bd",
+      "executableLinesSha256": ""
+    },
+    {
+      "path": "Devices/Colorimetry_Research/CR250.m",
+      "sha256": "03fc12e89ca35a5ba4b3d701272ef43db1d1677c51608719c91f01e32c29b4b4",
+      "executableLinesSha256": ""
+    },
+    {
+      "path": "Devices/Colorimetry_Research/CR300.m",
+      "sha256": "a6d5c1b23c83a84f4bd21b9bf2f64a368195d5c4304de0a3070bd2827b773742",
+      "executableLinesSha256": ""
+    },
+    {
+      "path": "Devices/Colorimetry_Research/CR_example.m",
+      "sha256": "02bb9c7d73a6432df43d50d30ef39f3416f12a49274463327e2d10e0982ad8bc",
+      "executableLinesSha256": ""
+    },
+    {
+      "path": "Convert/spec2XYZ.m",
+      "sha256": "3b63ebe1f9b34c295d3f5969eb3903630453e5274b3b074caf91a1b9e9a6d4a6",
+      "executableLinesSha256": "69a5494001fb52d25fe0f848c3b9b3cc91506da87d51d539c308c8e28f119937"
+    },
+    {
+      "path": "Convert/XYZ2CCT.m",
+      "sha256": "d3063d659bbc894541a45609e3e8bd7b3a9d1955b4c46a2605f28a1cdd1fdeea",
+      "executableLinesSha256": "36b89ca5482240ab7439a88876cf69677bd85204a7c4f5246357eb45fe3d350b"
+    },
+    {
+      "path": "Convert/getObserverFunction.m",
+      "sha256": "5506394a87b3fb91e8536f0f0a7d3f4d9f9fdd6bea838a18d484cc51d49a05f0",
+      "executableLinesSha256": "db02d0c7e8610c001994200eef601f98b7ea925022e2071e49056ffa8f3acd80"
+    },
+    {
+      "path": "Convert/private/XYZ2uvY1960.m",
+      "sha256": "181d34ebac6f7fc37504957f82c481f9594a13afd055b3affef6bf3d43d49d21",
+      "executableLinesSha256": "181d34ebac6f7fc37504957f82c481f9594a13afd055b3affef6bf3d43d49d21"
+    },
+    {
+      "path": "Convert/PlanckLocus.mat",
+      "sha256": "c17df5017fe0eb930c8989ee732c70c2bf64eef25acd9d73bdacf5dde4753e2c",
+      "executableLinesSha256": ""
+    },
+    {
+      "path": "Convert/ObsFunctions.mat",
+      "sha256": "84a47bcc10921983bf182004d06b6f9339003201d39d8e83b8841914918de925",
+      "executableLinesSha256": ""
+    }
+  ],
+  "sharedMatlabFingerprint": "UTF-8; split CRLF, CR or LF; discard blank lines and full-line comments (first non-whitespace character %); join retained lines with LF, without a final LF. Preserve all retained characters, including inline comments and spaces."
+}

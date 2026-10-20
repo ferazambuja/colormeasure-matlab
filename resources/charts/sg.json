@@ -1,0 +1,1282 @@
+{
+  "id": "colorchecker-digital-sg",
+  "revision": "argyll-3.5.0-structure-v1",
+  "kind": "sg",
+  "name": "ColorChecker Digital SG",
+  "rows": 10,
+  "columns": 14,
+  "traversal": "row-major-v1",
+  "cells": [
+    {
+      "row": 1,
+      "column": 1,
+      "sourceLocation": "A01",
+      "sourceId": 1,
+      "exportId": 1,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "sourceLocation": "B01",
+      "sourceId": 11,
+      "exportId": 11,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "sourceLocation": "C01",
+      "sourceId": 21,
+      "exportId": 21,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "sourceLocation": "D01",
+      "sourceId": 31,
+      "exportId": 31,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "sourceLocation": "E01",
+      "sourceId": 41,
+      "exportId": 41,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 6,
+      "sourceLocation": "F01",
+      "sourceId": 51,
+      "exportId": 51,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 7,
+      "sourceLocation": "G01",
+      "sourceId": 61,
+      "exportId": 61,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 8,
+      "sourceLocation": "H01",
+      "sourceId": 71,
+      "exportId": 71,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 9,
+      "sourceLocation": "I01",
+      "sourceId": 81,
+      "exportId": 81,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 10,
+      "sourceLocation": "J01",
+      "sourceId": 91,
+      "exportId": 91,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 11,
+      "sourceLocation": "K01",
+      "sourceId": 101,
+      "exportId": 101,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 12,
+      "sourceLocation": "L01",
+      "sourceId": 111,
+      "exportId": 111,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 13,
+      "sourceLocation": "M01",
+      "sourceId": 121,
+      "exportId": 121,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 1,
+      "column": 14,
+      "sourceLocation": "N01",
+      "sourceId": 131,
+      "exportId": 131,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "sourceLocation": "A02",
+      "sourceId": 2,
+      "exportId": 2,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "sourceLocation": "B02",
+      "sourceId": 12,
+      "exportId": 12,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "sourceLocation": "C02",
+      "sourceId": 22,
+      "exportId": 22,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 4,
+      "sourceLocation": "D02",
+      "sourceId": 32,
+      "exportId": 32,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 5,
+      "sourceLocation": "E02",
+      "sourceId": 42,
+      "exportId": 42,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 6,
+      "sourceLocation": "F02",
+      "sourceId": 52,
+      "exportId": 52,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 7,
+      "sourceLocation": "G02",
+      "sourceId": 62,
+      "exportId": 62,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 8,
+      "sourceLocation": "H02",
+      "sourceId": 72,
+      "exportId": 72,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 9,
+      "sourceLocation": "I02",
+      "sourceId": 82,
+      "exportId": 82,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 10,
+      "sourceLocation": "J02",
+      "sourceId": 92,
+      "exportId": 92,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 11,
+      "sourceLocation": "K02",
+      "sourceId": 102,
+      "exportId": 102,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 12,
+      "sourceLocation": "L02",
+      "sourceId": 112,
+      "exportId": 112,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 13,
+      "sourceLocation": "M02",
+      "sourceId": 122,
+      "exportId": 122,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 2,
+      "column": 14,
+      "sourceLocation": "N02",
+      "sourceId": 132,
+      "exportId": 132,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "sourceLocation": "A03",
+      "sourceId": 3,
+      "exportId": 3,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "sourceLocation": "B03",
+      "sourceId": 13,
+      "exportId": 13,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "sourceLocation": "C03",
+      "sourceId": 23,
+      "exportId": 23,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "sourceLocation": "D03",
+      "sourceId": 33,
+      "exportId": 33,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 5,
+      "sourceLocation": "E03",
+      "sourceId": 43,
+      "exportId": 43,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 6,
+      "sourceLocation": "F03",
+      "sourceId": 53,
+      "exportId": 53,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 7,
+      "sourceLocation": "G03",
+      "sourceId": 63,
+      "exportId": 63,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 8,
+      "sourceLocation": "H03",
+      "sourceId": 73,
+      "exportId": 73,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 9,
+      "sourceLocation": "I03",
+      "sourceId": 83,
+      "exportId": 83,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 10,
+      "sourceLocation": "J03",
+      "sourceId": 93,
+      "exportId": 93,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 11,
+      "sourceLocation": "K03",
+      "sourceId": 103,
+      "exportId": 103,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 12,
+      "sourceLocation": "L03",
+      "sourceId": 113,
+      "exportId": 113,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 13,
+      "sourceLocation": "M03",
+      "sourceId": 123,
+      "exportId": 123,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 3,
+      "column": 14,
+      "sourceLocation": "N03",
+      "sourceId": 133,
+      "exportId": 133,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "sourceLocation": "A04",
+      "sourceId": 4,
+      "exportId": 4,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "sourceLocation": "B04",
+      "sourceId": 14,
+      "exportId": 14,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "sourceLocation": "C04",
+      "sourceId": 24,
+      "exportId": 24,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 4,
+      "sourceLocation": "D04",
+      "sourceId": 34,
+      "exportId": 34,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 5,
+      "sourceLocation": "E04",
+      "sourceId": 44,
+      "exportId": 44,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 6,
+      "sourceLocation": "F04",
+      "sourceId": 54,
+      "exportId": 54,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 7,
+      "sourceLocation": "G04",
+      "sourceId": 64,
+      "exportId": 64,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 8,
+      "sourceLocation": "H04",
+      "sourceId": 74,
+      "exportId": 74,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 9,
+      "sourceLocation": "I04",
+      "sourceId": 84,
+      "exportId": 84,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 10,
+      "sourceLocation": "J04",
+      "sourceId": 94,
+      "exportId": 94,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 11,
+      "sourceLocation": "K04",
+      "sourceId": 104,
+      "exportId": 104,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 12,
+      "sourceLocation": "L04",
+      "sourceId": 114,
+      "exportId": 114,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 13,
+      "sourceLocation": "M04",
+      "sourceId": 124,
+      "exportId": 124,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 4,
+      "column": 14,
+      "sourceLocation": "N04",
+      "sourceId": 134,
+      "exportId": 134,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 1,
+      "sourceLocation": "A05",
+      "sourceId": 5,
+      "exportId": 5,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 2,
+      "sourceLocation": "B05",
+      "sourceId": 15,
+      "exportId": 15,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 3,
+      "sourceLocation": "C05",
+      "sourceId": 25,
+      "exportId": 25,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 4,
+      "sourceLocation": "D05",
+      "sourceId": 35,
+      "exportId": 35,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 5,
+      "sourceLocation": "E05",
+      "sourceId": 45,
+      "exportId": 45,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 6,
+      "sourceLocation": "F05",
+      "sourceId": 55,
+      "exportId": 55,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 7,
+      "sourceLocation": "G05",
+      "sourceId": 65,
+      "exportId": 65,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 8,
+      "sourceLocation": "H05",
+      "sourceId": 75,
+      "exportId": 75,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 9,
+      "sourceLocation": "I05",
+      "sourceId": 85,
+      "exportId": 85,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 10,
+      "sourceLocation": "J05",
+      "sourceId": 95,
+      "exportId": 95,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 11,
+      "sourceLocation": "K05",
+      "sourceId": 105,
+      "exportId": 105,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 12,
+      "sourceLocation": "L05",
+      "sourceId": 115,
+      "exportId": 115,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 13,
+      "sourceLocation": "M05",
+      "sourceId": 125,
+      "exportId": 125,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 5,
+      "column": 14,
+      "sourceLocation": "N05",
+      "sourceId": 135,
+      "exportId": 135,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 1,
+      "sourceLocation": "A06",
+      "sourceId": 6,
+      "exportId": 6,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 2,
+      "sourceLocation": "B06",
+      "sourceId": 16,
+      "exportId": 16,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 3,
+      "sourceLocation": "C06",
+      "sourceId": 26,
+      "exportId": 26,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 4,
+      "sourceLocation": "D06",
+      "sourceId": 36,
+      "exportId": 36,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 5,
+      "sourceLocation": "E06",
+      "sourceId": 46,
+      "exportId": 46,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 6,
+      "sourceLocation": "F06",
+      "sourceId": 56,
+      "exportId": 56,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 7,
+      "sourceLocation": "G06",
+      "sourceId": 66,
+      "exportId": 66,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 8,
+      "sourceLocation": "H06",
+      "sourceId": 76,
+      "exportId": 76,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 9,
+      "sourceLocation": "I06",
+      "sourceId": 86,
+      "exportId": 86,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 10,
+      "sourceLocation": "J06",
+      "sourceId": 96,
+      "exportId": 96,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 11,
+      "sourceLocation": "K06",
+      "sourceId": 106,
+      "exportId": 106,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 12,
+      "sourceLocation": "L06",
+      "sourceId": 116,
+      "exportId": 116,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 13,
+      "sourceLocation": "M06",
+      "sourceId": 126,
+      "exportId": 126,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 6,
+      "column": 14,
+      "sourceLocation": "N06",
+      "sourceId": 136,
+      "exportId": 136,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 1,
+      "sourceLocation": "A07",
+      "sourceId": 7,
+      "exportId": 7,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 2,
+      "sourceLocation": "B07",
+      "sourceId": 17,
+      "exportId": 17,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 3,
+      "sourceLocation": "C07",
+      "sourceId": 26,
+      "exportId": 27,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 4,
+      "sourceLocation": "D07",
+      "sourceId": 37,
+      "exportId": 37,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 5,
+      "sourceLocation": "E07",
+      "sourceId": 47,
+      "exportId": 47,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 6,
+      "sourceLocation": "F07",
+      "sourceId": 57,
+      "exportId": 57,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 7,
+      "sourceLocation": "G07",
+      "sourceId": 67,
+      "exportId": 67,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 8,
+      "sourceLocation": "H07",
+      "sourceId": 77,
+      "exportId": 77,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 9,
+      "sourceLocation": "I07",
+      "sourceId": 87,
+      "exportId": 87,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 10,
+      "sourceLocation": "J07",
+      "sourceId": 97,
+      "exportId": 97,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 11,
+      "sourceLocation": "K07",
+      "sourceId": 107,
+      "exportId": 107,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 12,
+      "sourceLocation": "L07",
+      "sourceId": 117,
+      "exportId": 117,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 13,
+      "sourceLocation": "M07",
+      "sourceId": 127,
+      "exportId": 127,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 7,
+      "column": 14,
+      "sourceLocation": "N07",
+      "sourceId": 137,
+      "exportId": 137,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 1,
+      "sourceLocation": "A08",
+      "sourceId": 8,
+      "exportId": 8,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 2,
+      "sourceLocation": "B08",
+      "sourceId": 18,
+      "exportId": 18,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 3,
+      "sourceLocation": "C08",
+      "sourceId": 28,
+      "exportId": 28,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 4,
+      "sourceLocation": "D08",
+      "sourceId": 38,
+      "exportId": 38,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 5,
+      "sourceLocation": "E08",
+      "sourceId": 48,
+      "exportId": 48,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 6,
+      "sourceLocation": "F08",
+      "sourceId": 58,
+      "exportId": 58,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 7,
+      "sourceLocation": "G08",
+      "sourceId": 68,
+      "exportId": 68,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 8,
+      "sourceLocation": "H08",
+      "sourceId": 78,
+      "exportId": 78,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 9,
+      "sourceLocation": "I08",
+      "sourceId": 88,
+      "exportId": 88,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 10,
+      "sourceLocation": "J08",
+      "sourceId": 98,
+      "exportId": 98,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 11,
+      "sourceLocation": "K08",
+      "sourceId": 108,
+      "exportId": 108,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 12,
+      "sourceLocation": "L08",
+      "sourceId": 118,
+      "exportId": 118,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 13,
+      "sourceLocation": "M08",
+      "sourceId": 128,
+      "exportId": 128,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 8,
+      "column": 14,
+      "sourceLocation": "N08",
+      "sourceId": 138,
+      "exportId": 138,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 1,
+      "sourceLocation": "A09",
+      "sourceId": 9,
+      "exportId": 9,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 2,
+      "sourceLocation": "B09",
+      "sourceId": 19,
+      "exportId": 19,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 3,
+      "sourceLocation": "C09",
+      "sourceId": 29,
+      "exportId": 29,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 4,
+      "sourceLocation": "D09",
+      "sourceId": 39,
+      "exportId": 39,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 5,
+      "sourceLocation": "E09",
+      "sourceId": 49,
+      "exportId": 49,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 6,
+      "sourceLocation": "F09",
+      "sourceId": 59,
+      "exportId": 59,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 7,
+      "sourceLocation": "G09",
+      "sourceId": 69,
+      "exportId": 69,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 8,
+      "sourceLocation": "H09",
+      "sourceId": 79,
+      "exportId": 79,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 9,
+      "sourceLocation": "I09",
+      "sourceId": 89,
+      "exportId": 89,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 10,
+      "sourceLocation": "J09",
+      "sourceId": 99,
+      "exportId": 99,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 11,
+      "sourceLocation": "K09",
+      "sourceId": 109,
+      "exportId": 109,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 12,
+      "sourceLocation": "L09",
+      "sourceId": 119,
+      "exportId": 119,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 13,
+      "sourceLocation": "M09",
+      "sourceId": 129,
+      "exportId": 129,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 9,
+      "column": 14,
+      "sourceLocation": "N09",
+      "sourceId": 139,
+      "exportId": 139,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 1,
+      "sourceLocation": "A10",
+      "sourceId": 10,
+      "exportId": 10,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 2,
+      "sourceLocation": "B10",
+      "sourceId": 20,
+      "exportId": 20,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 3,
+      "sourceLocation": "C10",
+      "sourceId": 30,
+      "exportId": 30,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 4,
+      "sourceLocation": "D10",
+      "sourceId": 40,
+      "exportId": 40,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 5,
+      "sourceLocation": "E10",
+      "sourceId": 50,
+      "exportId": 50,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 6,
+      "sourceLocation": "F10",
+      "sourceId": 60,
+      "exportId": 60,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 7,
+      "sourceLocation": "G10",
+      "sourceId": 70,
+      "exportId": 70,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 8,
+      "sourceLocation": "H10",
+      "sourceId": 80,
+      "exportId": 80,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 9,
+      "sourceLocation": "I10",
+      "sourceId": 90,
+      "exportId": 90,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 10,
+      "sourceLocation": "J10",
+      "sourceId": 100,
+      "exportId": 100,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 11,
+      "sourceLocation": "K10",
+      "sourceId": 110,
+      "exportId": 110,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 12,
+      "sourceLocation": "L10",
+      "sourceId": 120,
+      "exportId": 120,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 13,
+      "sourceLocation": "M10",
+      "sourceId": 130,
+      "exportId": 130,
+      "patchNumber": null,
+      "patchName": ""
+    },
+    {
+      "row": 10,
+      "column": 14,
+      "sourceLocation": "N10",
+      "sourceId": 140,
+      "exportId": 140,
+      "patchNumber": null,
+      "patchName": ""
+    }
+  ],
+  "provenance": {
+    "source": "ArgyllCMS 3.5.0 ref/ColorCheckerSG.ti2",
+    "sourceLocationScheme": "Source column letters and zero-padded row numbers; column-major source order",
+    "referenceData": "Not part of the structural definition; expected illustrations are frozen separately"
+  },
+  "referenceConditions": {
+    "edition": "Source created 10 February 2014; physical chart edition unverified",
+    "illuminant": "Unspecified for this structural definition",
+    "observer": "Unspecified for this structural definition",
+    "scale": "Unspecified for this structural definition"
+  }
+}

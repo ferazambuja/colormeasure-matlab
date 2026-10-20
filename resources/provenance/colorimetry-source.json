@@ -1,0 +1,260 @@
+{
+  "package": "colormeasure.colorimetry",
+  "pathBase": "project root (folder containing src and resources)",
+  "versionIdentity": "The Git commit containing this manifest identifies these files.",
+  "upstream": {
+    "repository": "https://github.com/RIT-MCSL/MCSL-Tools",
+    "revision": "24f18e31c845a6c64e7b5d01f6fb227d12daeabc",
+    "path": "Devices/measurement_v2/support_colorimetry"
+  },
+  "files": [
+    {
+      "path": "docs/colorimetry/README.md",
+      "sha256": "909986074db86a73a078d55c417edd547113c12ee84122171571c616a2ecc1f9"
+    },
+    {
+      "path": "docs/colorimetry/THIRD_PARTY_NOTICES.md",
+      "sha256": "92af5f945620843726eb4413eac84688228137d9f4837142e9fb47729608b144"
+    },
+    {
+      "path": "docs/colorimetry/adaptation-reflectance.md",
+      "sha256": "9c117371b68121fc510b449f1d53cedd2815c34c4077dd67426fcbb081ee354a"
+    },
+    {
+      "path": "docs/colorimetry/cct.md",
+      "sha256": "261b4ce774aa952e94aa756436e6a926898072138f282b9e37511c7b8c177aca"
+    },
+    {
+      "path": "docs/colorimetry/chart-colors.md",
+      "sha256": "6f021a703a9cc4d6e9193884c8343b5e003b63417dd8af17baf8ea44b1b2eb5a"
+    },
+    {
+      "path": "docs/colorimetry/compatibility.md",
+      "sha256": "aeb0c054120f33782fc0e25896692ecd3bc9e7cc7eb82a67c8eaac9e2a87de61"
+    },
+    {
+      "path": "docs/colorimetry/performance.md",
+      "sha256": "384f5f3cd4eb32bdf4f9c9712c5a74eecb9f9d8654102eec4368d5e690d4f19e"
+    },
+    {
+      "path": "docs/colorimetry/position-checks.md",
+      "sha256": "7024f7b75cd39e1a6b38094447b8d7dbaa51e6802af96a00385bcc8f6ad41fa6"
+    },
+    {
+      "path": "docs/colorimetry/science.md",
+      "sha256": "c0d7b4f1aea424a97a2c0a7b0b5a7d229d7289857d71195182d8f2170025c4f8"
+    },
+    {
+      "path": "licenses/colorimetry-MIT.txt",
+      "sha256": "a142e5560eff1fba698a9a7df52d85f9ff935f1f43be8b8c3837927c30fbe321"
+    },
+    {
+      "path": "resources/colorimetry/CIE_std_illum_A_1nm.csv",
+      "sha256": "61ef23fe146b8b665c74706717ab28cec7db6c9022993490bdc71991f43cb59b"
+    },
+    {
+      "path": "resources/colorimetry/CIE_std_illum_A_1nm.csv_metadata_v2.json",
+      "sha256": "35b735803ef7f64b61a0df3839fdb90efde47fd491562223c4a228bb2e0384d0"
+    },
+    {
+      "path": "resources/colorimetry/CIE_std_illum_D50.csv",
+      "sha256": "b23049c6f7b266c1c1fbe147aa271e8930ca02d6e569c5ae1804c036faea4193"
+    },
+    {
+      "path": "resources/colorimetry/CIE_std_illum_D50.csv_metadata.json",
+      "sha256": "6a821a681da65f9d5da5341ef52d190a56d7ea02ba086f4a3af1d9536cfb6f3b"
+    },
+    {
+      "path": "resources/colorimetry/CIE_std_illum_D65.csv",
+      "sha256": "e76f210bffff3d552ef7113025da5f325d5dfec200dd4b878b1a2f3a507032cb"
+    },
+    {
+      "path": "resources/colorimetry/CIE_std_illum_D65.csv_metadata_v2.json",
+      "sha256": "71994379b81c65db111f652e747a00b599b5456c2a8242e9a0d6f379f560a14e"
+    },
+    {
+      "path": "resources/colorimetry/CIE_xyz_1931_2deg.csv",
+      "sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1"
+    },
+    {
+      "path": "resources/colorimetry/CIE_xyz_1931_2deg.csv_metadata.json",
+      "sha256": "03abcaecf4e63d77045ef57c4514b52c8bb1a46dd18e1f93a50044a0f4f481c8"
+    },
+    {
+      "path": "resources/colorimetry/MCSL-LICENSE.txt",
+      "sha256": "bd74a8b29dc75c0d49d0f99b02f429b13c27b7a7178c4270aeaf4aa76a567e02"
+    },
+    {
+      "path": "resources/colorimetry/PlanckLocus.mat",
+      "sha256": "c17df5017fe0eb930c8989ee732c70c2bf64eef25acd9d73bdacf5dde4753e2c"
+    },
+    {
+      "path": "resources/colorimetry/README.md",
+      "sha256": "02631d7853752559ba796796b7d9a89a619234347066fff0dedd8a04617cb1d0"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/XYZ2CCT.m",
+      "sha256": "4e5ffc8731623e4ce3f4f1e7754509f183ac6414eed084ad944f083c4b05ddad"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/XYZ2Lab.m",
+      "sha256": "e4c9e8db4ceaf9884bb1a621926490e8ca4fae8a1aa874ca37342a2070ea6894"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/XYZ2uvY.m",
+      "sha256": "de16e4feea76f627613f6749495e40c8b0b04514ab73700aeff5a6df336abe04"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/XYZ2xyY.m",
+      "sha256": "fdd8e3e7b9bbc8f2200b2accbf50deeec0c58efae0d1b8e8217a906c54996e1b"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/XYZIntegrator.m",
+      "sha256": "6310e3dc82f64dfb3df4608ee3475dd9499c1b27b8b50af9bd5b655e1c21d350"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/adaptXYZ.m",
+      "sha256": "ec507460a5554955c7773af96b9539cd6c7e457ec580029e573236730c74b943"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/deltaE00.m",
+      "sha256": "79b0efd933a1784937a97930e841afa23a9c2b48e537d81655893e25787e862a"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/illuminantSpectrum.m",
+      "sha256": "27bb72a7673477268db8154486ab2a2074e4e42042e476b36c98afdd33b37ae1"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/illuminantWhite.m",
+      "sha256": "a44500d91c7d132326d75154e62c6deb3680838819b04f31857b5a33b4dc2ece"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/observer.m",
+      "sha256": "452bc7f10e0aa4613d6008e4d8334de8b7e9dbabda32c61c503dce3de61ab4a5"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/previewColor.m",
+      "sha256": "9351d69cc9ab00837cbc8d44d1578b0cfcf047f50cceede273742f2ff207089c"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/private/encodeSRGB.m",
+      "sha256": "a44aba76894adcd6453b4f56261c4775dfb82b252ee667a78af9637912e901b3"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/private/linearSRGB.m",
+      "sha256": "262ab1dcf76f222a5f30b3d44996db3e8e8de5c0b8a8bf1bc1b7c2d156e4b933"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/private/orientRows.m",
+      "sha256": "4230b17005c9811040fb4aa6f7b761159ab02d913649e556366b69f742f06141"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/private/spectralColumns.m",
+      "sha256": "074e1c4677b32b5662be4c82a164c94732dd9538600bf630846d9a70a1f27953"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/private/uniformGrid.m",
+      "sha256": "89b69e7ddc5ad02a8232363dbcf5f17fc7da7f8693aec1eda4e249fea9c94093"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/reflectanceFromReference.m",
+      "sha256": "1fedd320e9a0e1be70ff7e746a13b41b9f4ebfcd0b588e88600c3683043e3567"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/reflectanceXYZ.m",
+      "sha256": "342dc97388f9c6561a3dff8f1351c16c8bf27b02e9bdb5720d7028c92b60e60d"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/relativeColor.m",
+      "sha256": "7f01b820ff543d637fbb3accf2a61b63b7bbdbbffa398d6be357686a548f3823"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/spectra2XYZ.m",
+      "sha256": "a17d51033afca769a249da9523df4b16237ae3a477b4b8847c034086fabb1e99"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/spectralIntegral.m",
+      "sha256": "c239a577191638d0ac32048fedbecb61ce04f0c8362a9a356daebd2877f798b9"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/spectralRMS.m",
+      "sha256": "152f78906197c4a8baf46c131dab8aab68448d6aca964db216cd281f3f9f1762"
+    },
+    {
+      "path": "src/+colormeasure/+colorimetry/xyY2uvY.m",
+      "sha256": "5617c85213707cd13d129f909970580f2b447f94a28f5ceec5a651d2eb0b3163"
+    },
+    {
+      "path": "tests/colorimetry/data/README.md",
+      "sha256": "12889f4ff60ee0fa20b772d316e626a5ced8db86ea0b8500060e5009dda5c1ba"
+    },
+    {
+      "path": "tests/colorimetry/data/ciede2000.txt",
+      "sha256": "db3ff1756a6fe3da5e185897f73c83fa6be5a6d530b06f1e5979f02d6d80c85d"
+    },
+    {
+      "path": "tests/colorimetry/data/mcsl-spectra-reference.mat",
+      "sha256": "6b718ff1a421c146141460cd0934fec92b2c9c940ba5ef3cb3a1d8cfb8a29f3f"
+    },
+    {
+      "path": "tests/colorimetry/testAdaptationReflectance.m",
+      "sha256": "5baacd4de894d8ad9fd20c37abfc88930eb819c8395a24eea38249638076c411"
+    },
+    {
+      "path": "tests/colorimetry/testBenchmarkReferences.m",
+      "sha256": "502dd63040c2bfb3479cbb150c9b54daa6aa974915a5e9421f40246d6d5ed134"
+    },
+    {
+      "path": "tests/colorimetry/testCCT.m",
+      "sha256": "919f75222101ac7f9371057ceb5f6962cd4b4b2c701e2e25750a9e1e8f4896fb"
+    },
+    {
+      "path": "tests/colorimetry/testColorCoordinates.m",
+      "sha256": "aa5b8e72ac44a180f55507620e60d6336bab30de95dbcbe36a0e9d5af2f2ceba"
+    },
+    {
+      "path": "tests/colorimetry/testDeltaE00.m",
+      "sha256": "be45ce0d9410b21613a3f72e45913113e3e299008c782f4499ab80e212f507e5"
+    },
+    {
+      "path": "tests/colorimetry/testIlluminantWhiteAndPreviewColor.m",
+      "sha256": "d1fd2e13fa41a762f02ee5b682bc1467d0229fcaf996fee735f74412a8d5b077"
+    },
+    {
+      "path": "tests/colorimetry/testRelativeColor.m",
+      "sha256": "21c0af602d6a20781e79e5c928810a805bdb067635cad0ebacc3081aa29da08b"
+    },
+    {
+      "path": "tests/colorimetry/testSpectra.m",
+      "sha256": "5a2274bb0bd6a9c53c8683ac0df3f040a8fa978ecb034ae6fe6fa1252fffb32f"
+    },
+    {
+      "path": "tools/colorimetry/benchmarkAgainstMCSL.m",
+      "sha256": "303a4f176157b258057a32e40311d767f19ffcc9393291a537d0e75e30dd6362"
+    },
+    {
+      "path": "tools/colorimetry/benchmarkColorKernels.m",
+      "sha256": "6685d87d7c4d2f5ba4767143ee3cd539bf357bb9447fc289c400cd6e7242e232"
+    },
+    {
+      "path": "tools/colorimetry/benchmarkMATLAB.m",
+      "sha256": "a989b94399558a73a56bb4fb0aeb41b69275bfbe5230bef004fca3e1b9a34f02"
+    },
+    {
+      "path": "tools/colorimetry/generateCompatibilityFixtures.m",
+      "sha256": "ec291d0f9da1fed222dad0fcf80b725d2375da9419c97ae15cddfb52fa5ce898"
+    },
+    {
+      "path": "tools/colorimetry/generateManifest.py",
+      "sha256": "289c936127eb6b193c7f28d20f60bcb81bf71330a5fcb158cd44c1a98958114c"
+    },
+    {
+      "path": "tools/colorimetry/private/prepareSchoolReference.m",
+      "sha256": "d13d29caccaa40e4dc3b975f826fdbcec19d1be72ddd3abc92b248ad6a2c6033"
+    },
+    {
+      "path": "tools/colorimetry/reference-source.json",
+      "sha256": "06e6b67391aca87234423c0d504edc1a948afaa2e1ecfa9c149eb7afec35b935"
+    }
+  ]
+}

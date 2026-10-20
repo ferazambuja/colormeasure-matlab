@@ -1,0 +1,16 @@
+function adapter = uiAdapter()
+% UIADAPTER PR presentation and the window's automatic acquisition policy.
+%   The core adapter stays usable without the window or comparison package.
+%   Fernando Voltolini de Azambuja, 2026.
+adapter = colormeasure.drivers.pr.adapter();
+adapter.workspaceName = 'colorMeasurePR655Session';
+adapter.viewData = @colormeasure.drivers.pr.viewData;
+adapter.settings = struct('catalog',colormeasure.drivers.pr.settingsCatalog(), ...
+    'read',@(instrument) instrument.readSettings(), ...
+    'apply',@(instrument,overrides) instrument.applyAutomaticSettings(overrides));
+adapter.preparation.details{end+1} = ['Measure uses the automatic acquisition recipe (adaptive ' ...
+    'exposure, one cycle, automatic synchronization). Choose Settings... to open Measurement ' ...
+    'settings for deliberate overrides and help about each control; they are ' ...
+    'applied before the next reading.'];
+adapter.preparation.headings{end+1} = 'Acquisition settings';
+end

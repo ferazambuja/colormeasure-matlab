@@ -1,0 +1,2125 @@
+{
+  "format": "chart-reference-illustrations",
+  "version": 1,
+  "definitionId": "colorchecker-digital-sg",
+  "definitionRevision": "argyll-3.5.0-structure-v1",
+  "cells": [
+    {
+      "sourceLocation": "A01",
+      "available": false,
+      "XYZ": [
+        88.248,
+        87.506,
+        67.624
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.248,
+        87.506,
+        67.624
+      ]
+    },
+    {
+      "sourceLocation": "B01",
+      "available": false,
+      "XYZ": [
+        18.02,
+        17.795,
+        13.909
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.02,
+        17.795,
+        13.909
+      ]
+    },
+    {
+      "sourceLocation": "C01",
+      "available": false,
+      "XYZ": [
+        0.82505,
+        0.81476,
+        0.65728
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.82505,
+        0.81476,
+        0.65728
+      ]
+    },
+    {
+      "sourceLocation": "D01",
+      "available": false,
+      "XYZ": [
+        88.495,
+        87.752,
+        67.908
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.495,
+        87.752,
+        67.908
+      ]
+    },
+    {
+      "sourceLocation": "E01",
+      "available": false,
+      "XYZ": [
+        18.14,
+        17.914,
+        13.97
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.14,
+        17.914,
+        13.97
+      ]
+    },
+    {
+      "sourceLocation": "F01",
+      "available": false,
+      "XYZ": [
+        0.82145,
+        0.81159,
+        0.65214
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.82145,
+        0.81159,
+        0.65214
+      ]
+    },
+    {
+      "sourceLocation": "G01",
+      "available": false,
+      "XYZ": [
+        88.118,
+        87.379,
+        67.639
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.118,
+        87.379,
+        67.639
+      ]
+    },
+    {
+      "sourceLocation": "H01",
+      "available": false,
+      "XYZ": [
+        18.234,
+        18.003,
+        14.032
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.234,
+        18.003,
+        14.032
+      ]
+    },
+    {
+      "sourceLocation": "I01",
+      "available": false,
+      "XYZ": [
+        0.87797,
+        0.86649,
+        0.69253
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.87797,
+        0.86649,
+        0.69253
+      ]
+    },
+    {
+      "sourceLocation": "J01",
+      "available": false,
+      "XYZ": [
+        88.451,
+        87.71,
+        67.89
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.451,
+        87.71,
+        67.89
+      ]
+    },
+    {
+      "sourceLocation": "K01",
+      "available": false,
+      "XYZ": [
+        18.287,
+        18.055,
+        14.094
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.287,
+        18.055,
+        14.094
+      ]
+    },
+    {
+      "sourceLocation": "L01",
+      "available": false,
+      "XYZ": [
+        0.86284,
+        0.85099,
+        0.69322
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.86284,
+        0.85099,
+        0.69322
+      ]
+    },
+    {
+      "sourceLocation": "M01",
+      "available": false,
+      "XYZ": [
+        18.193,
+        17.966,
+        14.01
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.193,
+        17.966,
+        14.01
+      ]
+    },
+    {
+      "sourceLocation": "N01",
+      "available": false,
+      "XYZ": [
+        88.229,
+        87.51,
+        67.773
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.229,
+        87.51,
+        67.773
+      ]
+    },
+    {
+      "sourceLocation": "A02",
+      "available": false,
+      "XYZ": [
+        0.79451,
+        0.78569,
+        0.62423
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.79451,
+        0.78569,
+        0.62423
+      ]
+    },
+    {
+      "sourceLocation": "B02",
+      "available": false,
+      "XYZ": [
+        13.947,
+        7.2256,
+        8.2654
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        13.947,
+        7.2256,
+        8.2654
+      ]
+    },
+    {
+      "sourceLocation": "C02",
+      "available": false,
+      "XYZ": [
+        4.5781,
+        3.2916,
+        5.6162
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        4.5781,
+        3.2916,
+        5.6162
+      ]
+    },
+    {
+      "sourceLocation": "D02",
+      "available": false,
+      "XYZ": [
+        61.949,
+        61.451,
+        55.804
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        61.949,
+        61.451,
+        55.804
+      ]
+    },
+    {
+      "sourceLocation": "E02",
+      "available": false,
+      "XYZ": [
+        8.9153,
+        6.9545,
+        2.0109
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        8.9153,
+        6.9545,
+        2.0109
+      ]
+    },
+    {
+      "sourceLocation": "F02",
+      "available": false,
+      "XYZ": [
+        37.545,
+        31.159,
+        14.863
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        37.545,
+        31.159,
+        14.863
+      ]
+    },
+    {
+      "sourceLocation": "G02",
+      "available": false,
+      "XYZ": [
+        14.142,
+        14.422,
+        21.779
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        14.142,
+        14.422,
+        21.779
+      ]
+    },
+    {
+      "sourceLocation": "H02",
+      "available": false,
+      "XYZ": [
+        7.9378,
+        10.028,
+        2.2142
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        7.9378,
+        10.028,
+        2.2142
+      ]
+    },
+    {
+      "sourceLocation": "I02",
+      "available": false,
+      "XYZ": [
+        20.964,
+        18.509,
+        28.031
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        20.964,
+        18.509,
+        28.031
+      ]
+    },
+    {
+      "sourceLocation": "J02",
+      "available": false,
+      "XYZ": [
+        28.248,
+        36.791,
+        28.977
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        28.248,
+        36.791,
+        28.977
+      ]
+    },
+    {
+      "sourceLocation": "K02",
+      "available": false,
+      "XYZ": [
+        69.799,
+        64.775,
+        36.612
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        69.799,
+        64.775,
+        36.612
+      ]
+    },
+    {
+      "sourceLocation": "L02",
+      "available": false,
+      "XYZ": [
+        6.1636,
+        3.5011,
+        1.8122
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        6.1636,
+        3.5011,
+        1.8122
+      ]
+    },
+    {
+      "sourceLocation": "M02",
+      "available": false,
+      "XYZ": [
+        23.948,
+        12.474,
+        6.9015
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        23.948,
+        12.474,
+        6.9015
+      ]
+    },
+    {
+      "sourceLocation": "N02",
+      "available": false,
+      "XYZ": [
+        18.235,
+        18.007,
+        14.033
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.235,
+        18.007,
+        14.033
+      ]
+    },
+    {
+      "sourceLocation": "A03",
+      "available": false,
+      "XYZ": [
+        18.381,
+        18.146,
+        14.12
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.381,
+        18.146,
+        14.12
+      ]
+    },
+    {
+      "sourceLocation": "B03",
+      "available": false,
+      "XYZ": [
+        35.628,
+        27.852,
+        32.842
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        35.628,
+        27.852,
+        32.842
+      ]
+    },
+    {
+      "sourceLocation": "C03",
+      "available": false,
+      "XYZ": [
+        14.595,
+        11.308,
+        24.29
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        14.595,
+        11.308,
+        24.29
+      ]
+    },
+    {
+      "sourceLocation": "D03",
+      "available": false,
+      "XYZ": [
+        70.829,
+        63.53,
+        49.327
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        70.829,
+        63.53,
+        49.327
+      ]
+    },
+    {
+      "sourceLocation": "E03",
+      "available": false,
+      "XYZ": [
+        39.662,
+        29.415,
+        2.0565
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        39.662,
+        29.415,
+        2.0565
+      ]
+    },
+    {
+      "sourceLocation": "F03",
+      "available": false,
+      "XYZ": [
+        9.3378,
+        7.4563,
+        25.351
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        9.3378,
+        7.4563,
+        25.351
+      ]
+    },
+    {
+      "sourceLocation": "G03",
+      "available": false,
+      "XYZ": [
+        27.073,
+        16.15,
+        6.5289
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        27.073,
+        16.15,
+        6.5289
+      ]
+    },
+    {
+      "sourceLocation": "H03",
+      "available": false,
+      "XYZ": [
+        5.3295,
+        3.1328,
+        7.6104
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        5.3295,
+        3.1328,
+        7.6104
+      ]
+    },
+    {
+      "sourceLocation": "I03",
+      "available": false,
+      "XYZ": [
+        33.576,
+        40.912,
+        5.2871
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        33.576,
+        40.912,
+        5.2871
+      ]
+    },
+    {
+      "sourceLocation": "J03",
+      "available": false,
+      "XYZ": [
+        46.479,
+        40.816,
+        3.0539
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        46.479,
+        40.816,
+        3.0539
+      ]
+    },
+    {
+      "sourceLocation": "K03",
+      "available": false,
+      "XYZ": [
+        65.685,
+        71.95,
+        50.542
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        65.685,
+        71.95,
+        50.542
+      ]
+    },
+    {
+      "sourceLocation": "L03",
+      "available": false,
+      "XYZ": [
+        26.338,
+        13.442,
+        1.4011
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        26.338,
+        13.442,
+        1.4011
+      ]
+    },
+    {
+      "sourceLocation": "M03",
+      "available": false,
+      "XYZ": [
+        4.9174,
+        2.8834,
+        3.2478
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        4.9174,
+        2.8834,
+        3.2478
+      ]
+    },
+    {
+      "sourceLocation": "N03",
+      "available": false,
+      "XYZ": [
+        0.90282,
+        0.89004,
+        0.72414
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.90282,
+        0.89004,
+        0.72414
+      ]
+    },
+    {
+      "sourceLocation": "A04",
+      "available": false,
+      "XYZ": [
+        88.68,
+        87.944,
+        68.098
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.68,
+        87.944,
+        68.098
+      ]
+    },
+    {
+      "sourceLocation": "B04",
+      "available": false,
+      "XYZ": [
+        10.672,
+        5.2808,
+        15.248
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        10.672,
+        5.2808,
+        15.248
+      ]
+    },
+    {
+      "sourceLocation": "C04",
+      "available": false,
+      "XYZ": [
+        2.7432,
+        2.4949,
+        8.9148
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        2.7432,
+        2.4949,
+        8.9148
+      ]
+    },
+    {
+      "sourceLocation": "D04",
+      "available": false,
+      "XYZ": [
+        55.96,
+        62.694,
+        49.914
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        55.96,
+        62.694,
+        49.914
+      ]
+    },
+    {
+      "sourceLocation": "E04",
+      "available": false,
+      "XYZ": [
+        3.8491,
+        2.2164,
+        16.313
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        3.8491,
+        2.2164,
+        16.313
+      ]
+    },
+    {
+      "sourceLocation": "F04",
+      "available": false,
+      "XYZ": [
+        12.156,
+        19.3,
+        4.1286
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        12.156,
+        19.3,
+        4.1286
+      ]
+    },
+    {
+      "sourceLocation": "G04",
+      "available": false,
+      "XYZ": [
+        19.376,
+        9.3195,
+        1.2336
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        19.376,
+        9.3195,
+        1.2336
+      ]
+    },
+    {
+      "sourceLocation": "H04",
+      "available": false,
+      "XYZ": [
+        58.276,
+        57.392,
+        3.8438
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        58.276,
+        57.392,
+        3.8438
+      ]
+    },
+    {
+      "sourceLocation": "I04",
+      "available": false,
+      "XYZ": [
+        28.757,
+        16.577,
+        19.417
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        28.757,
+        16.577,
+        19.417
+      ]
+    },
+    {
+      "sourceLocation": "J04",
+      "available": false,
+      "XYZ": [
+        10.733,
+        14.67,
+        25.447
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        10.733,
+        14.67,
+        25.447
+      ]
+    },
+    {
+      "sourceLocation": "K04",
+      "available": false,
+      "XYZ": [
+        65.735,
+        62.355,
+        54.38
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        65.735,
+        62.355,
+        54.38
+      ]
+    },
+    {
+      "sourceLocation": "L04",
+      "available": false,
+      "XYZ": [
+        38.547,
+        28.092,
+        19.931
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        38.547,
+        28.092,
+        19.931
+      ]
+    },
+    {
+      "sourceLocation": "M04",
+      "available": false,
+      "XYZ": [
+        22.835,
+        11.309,
+        2.2409
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        22.835,
+        11.309,
+        2.2409
+      ]
+    },
+    {
+      "sourceLocation": "N04",
+      "available": false,
+      "XYZ": [
+        88.568,
+        87.817,
+        67.967
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.568,
+        87.817,
+        67.967
+      ]
+    },
+    {
+      "sourceLocation": "A05",
+      "available": false,
+      "XYZ": [
+        0.8241,
+        0.81063,
+        0.65611
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.8241,
+        0.81063,
+        0.65611
+      ]
+    },
+    {
+      "sourceLocation": "B05",
+      "available": false,
+      "XYZ": [
+        14.413,
+        15.789,
+        39.397
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        14.413,
+        15.789,
+        39.397
+      ]
+    },
+    {
+      "sourceLocation": "C05",
+      "available": false,
+      "XYZ": [
+        22.917,
+        25.788,
+        40.249
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        22.917,
+        25.788,
+        40.249
+      ]
+    },
+    {
+      "sourceLocation": "D05",
+      "available": false,
+      "XYZ": [
+        71.169,
+        64.557,
+        44.567
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        71.169,
+        64.557,
+        44.567
+      ]
+    },
+    {
+      "sourceLocation": "E05",
+      "available": false,
+      "XYZ": [
+        88.544,
+        87.795,
+        67.907
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.544,
+        87.795,
+        67.907
+      ]
+    },
+    {
+      "sourceLocation": "F05",
+      "available": false,
+      "XYZ": [
+        54.556,
+        53.706,
+        42.14
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        54.556,
+        53.706,
+        42.14
+      ]
+    },
+    {
+      "sourceLocation": "G05",
+      "available": false,
+      "XYZ": [
+        33.427,
+        32.973,
+        25.937
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        33.427,
+        32.973,
+        25.937
+      ]
+    },
+    {
+      "sourceLocation": "H05",
+      "available": false,
+      "XYZ": [
+        18.056,
+        17.832,
+        13.927
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.056,
+        17.832,
+        13.927
+      ]
+    },
+    {
+      "sourceLocation": "I05",
+      "available": false,
+      "XYZ": [
+        8.3409,
+        8.2458,
+        6.4676
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        8.3409,
+        8.2458,
+        6.4676
+      ]
+    },
+    {
+      "sourceLocation": "J05",
+      "available": false,
+      "XYZ": [
+        1.9476,
+        1.9353,
+        1.6272
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        1.9476,
+        1.9353,
+        1.6272
+      ]
+    },
+    {
+      "sourceLocation": "K05",
+      "available": false,
+      "XYZ": [
+        56.64,
+        60.889,
+        55.781
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        56.64,
+        60.889,
+        55.781
+      ]
+    },
+    {
+      "sourceLocation": "L05",
+      "available": false,
+      "XYZ": [
+        39.774,
+        29.229,
+        14.656
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        39.774,
+        29.229,
+        14.656
+      ]
+    },
+    {
+      "sourceLocation": "M05",
+      "available": false,
+      "XYZ": [
+        37.858,
+        20.942,
+        3.2296
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        37.858,
+        20.942,
+        3.2296
+      ]
+    },
+    {
+      "sourceLocation": "N05",
+      "available": false,
+      "XYZ": [
+        18.122,
+        17.897,
+        13.958
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.122,
+        17.897,
+        13.958
+      ]
+    },
+    {
+      "sourceLocation": "A06",
+      "available": false,
+      "XYZ": [
+        18.44,
+        18.204,
+        14.176
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.44,
+        18.204,
+        14.176
+      ]
+    },
+    {
+      "sourceLocation": "B06",
+      "available": false,
+      "XYZ": [
+        20.678,
+        26.238,
+        36.892
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        20.678,
+        26.238,
+        36.892
+      ]
+    },
+    {
+      "sourceLocation": "C06",
+      "available": false,
+      "XYZ": [
+        1.8367,
+        2.4049,
+        5.0252
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        1.8367,
+        2.4049,
+        5.0252
+      ]
+    },
+    {
+      "sourceLocation": "D06",
+      "available": false,
+      "XYZ": [
+        58.425,
+        62.218,
+        28.856
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        58.425,
+        62.218,
+        28.856
+      ]
+    },
+    {
+      "sourceLocation": "E06",
+      "available": false,
+      "XYZ": [
+        0.79786,
+        0.78602,
+        0.63706
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.79786,
+        0.78602,
+        0.63706
+      ]
+    },
+    {
+      "sourceLocation": "F06",
+      "available": false,
+      "XYZ": [
+        6.4072,
+        6.3399,
+        5.0669
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        6.4072,
+        6.3399,
+        5.0669
+      ]
+    },
+    {
+      "sourceLocation": "G06",
+      "available": false,
+      "XYZ": [
+        11.064,
+        10.946,
+        8.6577
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        11.064,
+        10.946,
+        8.6577
+      ]
+    },
+    {
+      "sourceLocation": "H06",
+      "available": false,
+      "XYZ": [
+        27.867,
+        27.477,
+        21.656
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        27.867,
+        27.477,
+        21.656
+      ]
+    },
+    {
+      "sourceLocation": "I06",
+      "available": false,
+      "XYZ": [
+        47.526,
+        46.802,
+        36.743
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        47.526,
+        46.802,
+        36.743
+      ]
+    },
+    {
+      "sourceLocation": "J06",
+      "available": false,
+      "XYZ": [
+        72.43,
+        71.604,
+        56.598
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        72.43,
+        71.604,
+        56.598
+      ]
+    },
+    {
+      "sourceLocation": "K06",
+      "available": false,
+      "XYZ": [
+        40.883,
+        40.315,
+        31.771
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        40.883,
+        40.315,
+        31.771
+      ]
+    },
+    {
+      "sourceLocation": "L06",
+      "available": false,
+      "XYZ": [
+        46.551,
+        31.086,
+        1.684
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        46.551,
+        31.086,
+        1.684
+      ]
+    },
+    {
+      "sourceLocation": "M06",
+      "available": false,
+      "XYZ": [
+        68.621,
+        59.753,
+        4.7718
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        68.621,
+        59.753,
+        4.7718
+      ]
+    },
+    {
+      "sourceLocation": "N06",
+      "available": false,
+      "XYZ": [
+        0.91053,
+        0.89609,
+        0.72743
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.91053,
+        0.89609,
+        0.72743
+      ]
+    },
+    {
+      "sourceLocation": "A07",
+      "available": false,
+      "XYZ": [
+        88.645,
+        87.9,
+        67.947
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.645,
+        87.9,
+        67.947
+      ]
+    },
+    {
+      "sourceLocation": "B07",
+      "available": false,
+      "XYZ": [
+        1.4503,
+        2.3485,
+        2.5612
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        1.4503,
+        2.3485,
+        2.5612
+      ]
+    },
+    {
+      "sourceLocation": "C07",
+      "available": false,
+      "XYZ": [
+        26.445,
+        26.691,
+        42.354
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        26.445,
+        26.691,
+        42.354
+      ]
+    },
+    {
+      "sourceLocation": "D07",
+      "available": false,
+      "XYZ": [
+        38.568,
+        30.125,
+        8.7209
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        38.568,
+        30.125,
+        8.7209
+      ]
+    },
+    {
+      "sourceLocation": "E07",
+      "available": false,
+      "XYZ": [
+        57.952,
+        50.112,
+        24.135
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        57.952,
+        50.112,
+        24.135
+      ]
+    },
+    {
+      "sourceLocation": "F07",
+      "available": false,
+      "XYZ": [
+        35.941,
+        31.606,
+        12.544
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        35.941,
+        31.606,
+        12.544
+      ]
+    },
+    {
+      "sourceLocation": "G07",
+      "available": false,
+      "XYZ": [
+        16.15,
+        13.522,
+        3.9502
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        16.15,
+        13.522,
+        3.9502
+      ]
+    },
+    {
+      "sourceLocation": "H07",
+      "available": false,
+      "XYZ": [
+        40.984,
+        36.127,
+        18.85
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        40.984,
+        36.127,
+        18.85
+      ]
+    },
+    {
+      "sourceLocation": "I07",
+      "available": false,
+      "XYZ": [
+        18.562,
+        14.284,
+        2.5362
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.562,
+        14.284,
+        2.5362
+      ]
+    },
+    {
+      "sourceLocation": "J07",
+      "available": false,
+      "XYZ": [
+        39.001,
+        31.844,
+        12.663
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        39.001,
+        31.844,
+        12.663
+      ]
+    },
+    {
+      "sourceLocation": "K07",
+      "available": false,
+      "XYZ": [
+        14.736,
+        14.561,
+        11.275
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        14.736,
+        14.561,
+        11.275
+      ]
+    },
+    {
+      "sourceLocation": "L07",
+      "available": false,
+      "XYZ": [
+        40.32,
+        44.888,
+        2.281
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        40.32,
+        44.888,
+        2.281
+      ]
+    },
+    {
+      "sourceLocation": "M07",
+      "available": false,
+      "XYZ": [
+        62.143,
+        60.565,
+        3.4559
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        62.143,
+        60.565,
+        3.4559
+      ]
+    },
+    {
+      "sourceLocation": "N07",
+      "available": false,
+      "XYZ": [
+        88.708,
+        87.957,
+        67.966
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.708,
+        87.957,
+        67.966
+      ]
+    },
+    {
+      "sourceLocation": "A08",
+      "available": false,
+      "XYZ": [
+        0.83201,
+        0.82155,
+        0.66406
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.83201,
+        0.82155,
+        0.66406
+      ]
+    },
+    {
+      "sourceLocation": "B08",
+      "available": false,
+      "XYZ": [
+        18.038,
+        25.719,
+        27.04
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.038,
+        25.719,
+        27.04
+      ]
+    },
+    {
+      "sourceLocation": "C08",
+      "available": false,
+      "XYZ": [
+        10.254,
+        16.917,
+        17.282
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        10.254,
+        16.917,
+        17.282
+      ]
+    },
+    {
+      "sourceLocation": "D08",
+      "available": false,
+      "XYZ": [
+        38.933,
+        32.311,
+        15.635
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        38.933,
+        32.311,
+        15.635
+      ]
+    },
+    {
+      "sourceLocation": "E08",
+      "available": false,
+      "XYZ": [
+        55.647,
+        45.093,
+        20.468
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        55.647,
+        45.093,
+        20.468
+      ]
+    },
+    {
+      "sourceLocation": "F08",
+      "available": false,
+      "XYZ": [
+        37.116,
+        32.687,
+        16.787
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        37.116,
+        32.687,
+        16.787
+      ]
+    },
+    {
+      "sourceLocation": "G08",
+      "available": false,
+      "XYZ": [
+        37.661,
+        32.448,
+        16.848
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        37.661,
+        32.448,
+        16.848
+      ]
+    },
+    {
+      "sourceLocation": "H08",
+      "available": false,
+      "XYZ": [
+        38.129,
+        32.772,
+        16.085
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        38.129,
+        32.772,
+        16.085
+      ]
+    },
+    {
+      "sourceLocation": "I08",
+      "available": false,
+      "XYZ": [
+        10.917,
+        8.9216,
+        2.2738
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        10.917,
+        8.9216,
+        2.2738
+      ]
+    },
+    {
+      "sourceLocation": "J08",
+      "available": false,
+      "XYZ": [
+        41.29,
+        34.619,
+        13.358
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        41.29,
+        34.619,
+        13.358
+      ]
+    },
+    {
+      "sourceLocation": "K08",
+      "available": false,
+      "XYZ": [
+        2.932,
+        2.889,
+        2.2903
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        2.932,
+        2.889,
+        2.2903
+      ]
+    },
+    {
+      "sourceLocation": "L08",
+      "available": false,
+      "XYZ": [
+        30.879,
+        30.535,
+        4.3092
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        30.879,
+        30.535,
+        4.3092
+      ]
+    },
+    {
+      "sourceLocation": "M08",
+      "available": false,
+      "XYZ": [
+        36.404,
+        42.082,
+        3.0824
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        36.404,
+        42.082,
+        3.0824
+      ]
+    },
+    {
+      "sourceLocation": "N08",
+      "available": false,
+      "XYZ": [
+        18.198,
+        17.969,
+        14.003
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.198,
+        17.969,
+        14.003
+      ]
+    },
+    {
+      "sourceLocation": "A09",
+      "available": false,
+      "XYZ": [
+        18.117,
+        17.891,
+        13.951
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.117,
+        17.891,
+        13.951
+      ]
+    },
+    {
+      "sourceLocation": "B09",
+      "available": false,
+      "XYZ": [
+        3.3798,
+        3.2743,
+        1.5789
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        3.3798,
+        3.2743,
+        1.5789
+      ]
+    },
+    {
+      "sourceLocation": "C09",
+      "available": false,
+      "XYZ": [
+        19.052,
+        27.206,
+        12.27
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        19.052,
+        27.206,
+        12.27
+      ]
+    },
+    {
+      "sourceLocation": "D09",
+      "available": false,
+      "XYZ": [
+        9.7069,
+        17.252,
+        8.6902
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        9.7069,
+        17.252,
+        8.6902
+      ]
+    },
+    {
+      "sourceLocation": "E09",
+      "available": false,
+      "XYZ": [
+        1.8046,
+        2.8716,
+        1.5513
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        1.8046,
+        2.8716,
+        1.5513
+      ]
+    },
+    {
+      "sourceLocation": "F09",
+      "available": false,
+      "XYZ": [
+        17.633,
+        26.206,
+        16.515
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        17.633,
+        26.206,
+        16.515
+      ]
+    },
+    {
+      "sourceLocation": "G09",
+      "available": false,
+      "XYZ": [
+        21.403,
+        28.638,
+        6.9364
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        21.403,
+        28.638,
+        6.9364
+      ]
+    },
+    {
+      "sourceLocation": "H09",
+      "available": false,
+      "XYZ": [
+        10.912,
+        18.905,
+        3.2592
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        10.912,
+        18.905,
+        3.2592
+      ]
+    },
+    {
+      "sourceLocation": "I09",
+      "available": false,
+      "XYZ": [
+        17.438,
+        28.565,
+        5.5533
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        17.438,
+        28.565,
+        5.5533
+      ]
+    },
+    {
+      "sourceLocation": "J09",
+      "available": false,
+      "XYZ": [
+        34.263,
+        30.194,
+        5.397
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        34.263,
+        30.194,
+        5.397
+      ]
+    },
+    {
+      "sourceLocation": "K09",
+      "available": false,
+      "XYZ": [
+        26.258,
+        30.234,
+        4.5358
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        26.258,
+        30.234,
+        4.5358
+      ]
+    },
+    {
+      "sourceLocation": "L09",
+      "available": false,
+      "XYZ": [
+        34.348,
+        43.517,
+        4.2049
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        34.348,
+        43.517,
+        4.2049
+      ]
+    },
+    {
+      "sourceLocation": "M09",
+      "available": false,
+      "XYZ": [
+        3.8488,
+        2.9778,
+        0.82178
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        3.8488,
+        2.9778,
+        0.82178
+      ]
+    },
+    {
+      "sourceLocation": "N09",
+      "available": false,
+      "XYZ": [
+        0.84335,
+        0.83102,
+        0.6726
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.84335,
+        0.83102,
+        0.6726
+      ]
+    },
+    {
+      "sourceLocation": "A10",
+      "available": false,
+      "XYZ": [
+        88.871,
+        88.126,
+        68.082
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.871,
+        88.126,
+        68.082
+      ]
+    },
+    {
+      "sourceLocation": "B10",
+      "available": false,
+      "XYZ": [
+        18.484,
+        18.244,
+        14.191
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.484,
+        18.244,
+        14.191
+      ]
+    },
+    {
+      "sourceLocation": "C10",
+      "available": false,
+      "XYZ": [
+        0.80531,
+        0.79585,
+        0.63985
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.80531,
+        0.79585,
+        0.63985
+      ]
+    },
+    {
+      "sourceLocation": "D10",
+      "available": false,
+      "XYZ": [
+        88.852,
+        88.103,
+        68.149
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.852,
+        88.103,
+        68.149
+      ]
+    },
+    {
+      "sourceLocation": "E10",
+      "available": false,
+      "XYZ": [
+        18.286,
+        18.054,
+        14.052
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.286,
+        18.054,
+        14.052
+      ]
+    },
+    {
+      "sourceLocation": "F10",
+      "available": false,
+      "XYZ": [
+        0.81745,
+        0.8033,
+        0.64807
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.81745,
+        0.8033,
+        0.64807
+      ]
+    },
+    {
+      "sourceLocation": "G10",
+      "available": false,
+      "XYZ": [
+        88.763,
+        88.011,
+        68.03
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.763,
+        88.011,
+        68.03
+      ]
+    },
+    {
+      "sourceLocation": "H10",
+      "available": false,
+      "XYZ": [
+        18.315,
+        18.083,
+        14.077
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.315,
+        18.083,
+        14.077
+      ]
+    },
+    {
+      "sourceLocation": "I10",
+      "available": false,
+      "XYZ": [
+        0.82118,
+        0.80798,
+        0.64783
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.82118,
+        0.80798,
+        0.64783
+      ]
+    },
+    {
+      "sourceLocation": "J10",
+      "available": false,
+      "XYZ": [
+        88.689,
+        87.942,
+        67.945
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.689,
+        87.942,
+        67.945
+      ]
+    },
+    {
+      "sourceLocation": "K10",
+      "available": false,
+      "XYZ": [
+        18.273,
+        18.042,
+        14.057
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.273,
+        18.042,
+        14.057
+      ]
+    },
+    {
+      "sourceLocation": "L10",
+      "available": false,
+      "XYZ": [
+        0.80067,
+        0.78884,
+        0.63517
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        0.80067,
+        0.78884,
+        0.63517
+      ]
+    },
+    {
+      "sourceLocation": "M10",
+      "available": false,
+      "XYZ": [
+        18.242,
+        18.01,
+        14.027
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        18.242,
+        18.01,
+        14.027
+      ]
+    },
+    {
+      "sourceLocation": "N10",
+      "available": false,
+      "XYZ": [
+        88.818,
+        88.071,
+        68.124
+      ],
+      "reason": "The original SG expected XYZ has no established illuminant, observer or reference white. Reference color is unavailable.",
+      "originalValues": [
+        88.818,
+        88.071,
+        68.124
+      ]
+    }
+  ],
+  "context": {},
+  "provenance": {
+    "source": "ArgyllCMS 3.5.0 ref/ColorCheckerSG.ti2",
+    "sourceSHA256": "687a880a00ea0f732ddcd0c249ed9198d8fe015168acc3c13915b085b54a4f21",
+    "created": "Mon Feb 10 15:05:27 2014",
+    "originalFields": [
+      "XYZ_X",
+      "XYZ_Y",
+      "XYZ_Z"
+    ],
+    "originalFile": "resources/charts/sources/ColorCheckerSG.ti2",
+    "edition": "Historical reference; physical chart edition unverified",
+    "conditions": "The original SG XYZ illuminant, observer and white are unestablished; reference rendering is unavailable",
+    "historicalConsumerConvention": "Argyll chartread compares expected XYZ/100 as D50 Lab; this does not establish the original SG XYZ illuminant, observer or white",
+    "meaning": "Original expected XYZ retained without reference rendering; not a measured specimen, accuracy standard or position-test reference",
+    "terms": "AGPL-3.0; resources/charts/ARGYLL-AGPL-3.0.txt"
+  }
+}

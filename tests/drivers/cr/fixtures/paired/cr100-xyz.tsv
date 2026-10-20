@@ -1,0 +1,6 @@
+RC Model	OK:0:RC Model:CR-100
+RC ID	OK:0:RC ID:SYNTHETIC-100
+RC Firmware	OK:0:RC Firmware:1.34.0-S28
+RC InstrumentType	OK:0:RC InstrumentType:1
+M	OK:0:M:No errors
+RM XYZ	OK:0:RM XYZ:12.5,25,6.25

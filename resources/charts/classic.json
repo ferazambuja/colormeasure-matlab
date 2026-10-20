@@ -1,0 +1,238 @@
+{
+  "id": "colorchecker-classic",
+  "revision": "argyll-3.5.0-structure-v1",
+  "kind": "classic",
+  "name": "ColorChecker Classic",
+  "rows": 4,
+  "columns": 6,
+  "traversal": "row-major-v1",
+  "cells": [
+    {
+      "row": 1,
+      "column": 1,
+      "sourceLocation": "A1",
+      "sourceId": 1,
+      "exportId": 1,
+      "patchNumber": 1,
+      "patchName": "Dark skin"
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "sourceLocation": "A2",
+      "sourceId": 2,
+      "exportId": 2,
+      "patchNumber": 2,
+      "patchName": "Light skin"
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "sourceLocation": "A3",
+      "sourceId": 3,
+      "exportId": 3,
+      "patchNumber": 3,
+      "patchName": "Blue sky"
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "sourceLocation": "A4",
+      "sourceId": 4,
+      "exportId": 4,
+      "patchNumber": 4,
+      "patchName": "Foliage"
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "sourceLocation": "A5",
+      "sourceId": 5,
+      "exportId": 5,
+      "patchNumber": 5,
+      "patchName": "Blue flower"
+    },
+    {
+      "row": 1,
+      "column": 6,
+      "sourceLocation": "A6",
+      "sourceId": 6,
+      "exportId": 6,
+      "patchNumber": 6,
+      "patchName": "Bluish green"
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "sourceLocation": "B1",
+      "sourceId": 7,
+      "exportId": 7,
+      "patchNumber": 7,
+      "patchName": "Orange"
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "sourceLocation": "B2",
+      "sourceId": 8,
+      "exportId": 8,
+      "patchNumber": 8,
+      "patchName": "Purplish blue"
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "sourceLocation": "B3",
+      "sourceId": 9,
+      "exportId": 9,
+      "patchNumber": 9,
+      "patchName": "Moderate red"
+    },
+    {
+      "row": 2,
+      "column": 4,
+      "sourceLocation": "B4",
+      "sourceId": 10,
+      "exportId": 10,
+      "patchNumber": 10,
+      "patchName": "Purple"
+    },
+    {
+      "row": 2,
+      "column": 5,
+      "sourceLocation": "B5",
+      "sourceId": 11,
+      "exportId": 11,
+      "patchNumber": 11,
+      "patchName": "Yellow green"
+    },
+    {
+      "row": 2,
+      "column": 6,
+      "sourceLocation": "B6",
+      "sourceId": 12,
+      "exportId": 12,
+      "patchNumber": 12,
+      "patchName": "Orange yellow"
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "sourceLocation": "C1",
+      "sourceId": 13,
+      "exportId": 13,
+      "patchNumber": 13,
+      "patchName": "Blue"
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "sourceLocation": "C2",
+      "sourceId": 14,
+      "exportId": 14,
+      "patchNumber": 14,
+      "patchName": "Green"
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "sourceLocation": "C3",
+      "sourceId": 15,
+      "exportId": 15,
+      "patchNumber": 15,
+      "patchName": "Red"
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "sourceLocation": "C4",
+      "sourceId": 16,
+      "exportId": 16,
+      "patchNumber": 16,
+      "patchName": "Yellow"
+    },
+    {
+      "row": 3,
+      "column": 5,
+      "sourceLocation": "C5",
+      "sourceId": 17,
+      "exportId": 17,
+      "patchNumber": 17,
+      "patchName": "Magenta"
+    },
+    {
+      "row": 3,
+      "column": 6,
+      "sourceLocation": "C6",
+      "sourceId": 18,
+      "exportId": 18,
+      "patchNumber": 18,
+      "patchName": "Cyan"
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "sourceLocation": "D1",
+      "sourceId": 19,
+      "exportId": 19,
+      "patchNumber": 19,
+      "patchName": "White"
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "sourceLocation": "D2",
+      "sourceId": 20,
+      "exportId": 20,
+      "patchNumber": 20,
+      "patchName": "Neutral 8"
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "sourceLocation": "D3",
+      "sourceId": 21,
+      "exportId": 21,
+      "patchNumber": 21,
+      "patchName": "Neutral 6.5"
+    },
+    {
+      "row": 4,
+      "column": 4,
+      "sourceLocation": "D4",
+      "sourceId": 22,
+      "exportId": 22,
+      "patchNumber": 22,
+      "patchName": "Neutral 5"
+    },
+    {
+      "row": 4,
+      "column": 5,
+      "sourceLocation": "D5",
+      "sourceId": 23,
+      "exportId": 23,
+      "patchNumber": 23,
+      "patchName": "Neutral 3.5"
+    },
+    {
+      "row": 4,
+      "column": 6,
+      "sourceLocation": "D6",
+      "sourceId": 24,
+      "exportId": 24,
+      "patchNumber": 24,
+      "patchName": "Black"
+    }
+  ],
+  "provenance": {
+    "source": "ArgyllCMS 3.5.0 ref/ColorChecker.ti2",
+    "sourceLocationScheme": "Source row letters and column numbers",
+    "referenceData": "Not part of the structural definition; expected illustrations are frozen separately"
+  },
+  "referenceConditions": {
+    "edition": "Source created 11 April 2007; physical chart edition unverified",
+    "illuminant": "Unspecified for this structural definition",
+    "observer": "Unspecified for this structural definition",
+    "scale": "Unspecified for this structural definition"
+  }
+}
