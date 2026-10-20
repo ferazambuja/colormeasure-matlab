@@ -1,7 +1,7 @@
 # Device identification and selection checks
 
-> **TEMPORARY BETA VALIDATION GUIDE**
-> Scope: [validation status and interpretation](README.md#validation-status-and-interpretation).
+> **Device-test checklist**
+> Scope: [what the device test checks](README.md#what-the-device-test-checks).
 
 ## Purpose
 

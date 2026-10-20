@@ -55,7 +55,7 @@ for index=1:count
         if ref.available
             cells(index).reference=project(ref.XYZ,referenceData.context,referenceData.provenance);
             if cells(index).reference.available
-                cells(index).reference.reason='Historical Argyll D50/1931 reference illustration; physical chart edition and specimen conditions unverified.';
+                cells(index).reference.reason='Historical D50/1931 reference illustration; physical chart edition and specimen conditions unverified.';
             end
         else
             cells(index).reference=unavailable(ref.reason);

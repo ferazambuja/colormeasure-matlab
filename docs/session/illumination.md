@@ -12,9 +12,6 @@ Object-color calculation asks how a material would respond to another light,
 using an estimate of its spectral reflectance. These are different operations.
 Neither makes the instrument more accurate or reconstructs missing spectral data.
 
-Related tools: [ArgyllCMS spotread](https://www.argyllcms.com/doc/spotread.html)
-and [Colour spectral integration](https://colour.readthedocs.io/en/latest/generated/colour.sd_to_XYZ.html).
-
 ## Adapt a color to a white
 
 1. Select a retained sample in **Color**, then choose **Chromatic adaptation**.

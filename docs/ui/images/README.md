@@ -10,20 +10,16 @@ no physical instrument was operated and no calibration or accuracy is establishe
 - [Measurement settings](direct-serial-settings.jpg)
 - [Guided chart](direct-serial-chart.jpg)
 
-## Earlier illustrations
+## Additional settings illustrations
 
-The retained native images contain generated measurements and settings. They
-are historical illustrations from the source revisions recorded in
-[capture-record.json](capture-record.json), not screenshots of the current
-direct-only layout or evidence of physical measurement, calibration, keyboard
-focus or accessibility. Current operator guides link only the five retained
-illustrations and describe the implemented controls in their text.
+The PR, CR and CS-2000 guides also include five earlier images of generated
+readings and settings. Their dates, source identities and image hashes are in
+[capture-record.json](capture-record.json). Layout details can differ from the
+current window; use the guide text for the current controls.
 
-This source inventory retains the original metadata and image hashes only for
-the five files shipped here. Its `originalCaptureRecord` locator identifies the
-complete, byte-preserved original record in the qualified source history.
-All original capture artifacts remain in that preserved history; no screenshot
-was recaptured to curate this inventory.
+Historical source identities in the capture records document where an image
+was made. They are not revisions in this public repository's history. The
+images and their metadata are included here; no earlier checkout is needed.
 
 To inspect the current native UI without equipment, add this installation’s
 `src` folder and open a generated gallery:

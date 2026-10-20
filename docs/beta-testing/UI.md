@@ -1,10 +1,9 @@
 # Beta UI and analysis checks
 
-> **TEMPORARY BETA VALIDATION GUIDE**
-> Scope: [validation status and interpretation](README.md#validation-status-and-interpretation).
+> **UI checklist**
+> Start with the [demo walkthrough](README.md#open-the-demo).
 
-Temporary acceptance checks for this release. Start with the
-[short demo guide](README.md). These checks use generated readings;
+These detailed checks use generated readings;
 physical acquisition and optical comparisons belong to each instrument checklist.
 
 Use MATLAB R2026b or newer and record the revision being checked. For the full

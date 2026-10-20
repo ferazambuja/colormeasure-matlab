@@ -23,8 +23,7 @@ MIT-licensed Psychtoolbox routines.
 | Planckian lookup table | MCSL-Tools; [MIT notice](../resources/colorimetry/MCSL-LICENSE.txt) |
 | Chart layouts, historical reference values and retained chart source files | ArgyllCMS; [source attribution and AGPL-3.0 notice](../resources/charts/README.md) |
 
-The chart files supply layouts and reference illustrations. Instrument control
-uses the MATLAB serial drivers; the app does not require an Argyll installation
-or acquisition backend.
+The chart files supply layouts and historical reference colors. Instrument
+control and color calculations run in MATLAB.
 
 Keep the associated copyright, license and data-source notices when sharing a copy.

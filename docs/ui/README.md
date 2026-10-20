@@ -7,7 +7,7 @@ Screenshots show generated demo readings.
 
 ![Current direct UI with generated CR-250 readings](images/direct-serial-gallery.jpg)
 
-Follow the relevant [instrument setup guide](../../README.md#instrument-workflows),
+Follow the relevant [instrument setup guide](../../README.md#use-the-drivers-in-your-scripts),
 then run `setupColorMeasure` from the extracted folder and open the app:
 
 ```matlab

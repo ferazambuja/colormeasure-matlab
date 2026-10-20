@@ -1,9 +1,9 @@
 function value = packagedDefinition(kind)
 %PACKAGEDDEFINITION Authenticate bundled chart data before interpreting it.
-%   The generated manifest pins exact UTF-8 bytes, source mappings and tooling.
+%   The manifest pins exact UTF-8 bytes and source mappings.
 %   Definitions and their manifest are small bounded inputs. No runtime source
 %   checkout, Python, network access or mutable catalog cache is involved.
-manifestDigest = '15384ee4f01c00071da3d7f9a0a087c4cf9274fac7a8dac2ad52a11d2a9d229d'; % Updated by generateDefinitions.py.
+manifestDigest = 'facb34daaa9de277bbf14f435e66b8b4360475b97ad0b99017f7c5d10944415d'; % Pins the committed resource manifest.
 root=colormeasure.root();
 manifest=authenticatedJson(fullfile(root,'resources','provenance','chart-source.json'),manifestDigest,65536);
 if ~isstruct(manifest)||~isscalar(manifest)||~all(isfield(manifest,{'format','version','files'}))|| ...

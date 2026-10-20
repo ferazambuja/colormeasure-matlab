@@ -1,10 +1,6 @@
 {
   "format": "chart-reference-sources",
   "version": 1,
-  "generator": {
-    "path": "tools/charts/generateReferences.py",
-    "sha256": "53d0046fa31aa3fcdc17f335ff2c5bbe25c436ab138f4a579e419f5369dd5690"
-  },
   "upstream": {
     "release": "ArgyllCMS 3.5.0",
     "archive": "https://www.argyllcms.com/Argyll_V3.5.0_src.zip",
@@ -46,22 +42,11 @@
     "whiteAndObserver": "icc/icc_util.c:2080-2095 states 1931 observer and defines ICC-rounded D50 and D50*100",
     "notEstablished": "Physical chart edition, specimen spectral reflectance, backing, geometry, measurement condition and reference accuracy"
   },
-  "buildDependencies": [
-    {
-      "module": "color_measurement.cgats",
-      "sha256": "6b3779cf8bfe6ad49ca9c3ac2d28517a23be30ae70ce2aa3f99d7f9ae1dd920a"
-    },
-    {
-      "module": "color_measurement.science",
-      "sha256": "0d28d39a4e32af3b7ed12f28e4121b85caf25bd2803ca9f55645950ad25edc7d"
-    }
-  ],
   "sourceTerms": {
     "license": "AGPL-3.0",
     "path": "resources/charts/ARGYLL-AGPL-3.0.txt",
     "sha256": "432d251a78dbc966e6add13f9f3b40a53daca222208e50cb514cfc77e7d85af6"
   },
-  "redistributionStatus": "Local copies authorized; external distribution not cleared; retain original data, source manifest and AGPL terms",
   "files": [
     {
       "path": "resources/charts/classic-reference.json",
@@ -79,5 +64,6 @@
       "path": "resources/charts/sources/ColorCheckerSG.ti2",
       "sha256": "687a880a00ea0f732ddcd0c249ed9198d8fe015168acc3c13915b085b54a4f21"
     }
-  ]
+  ],
+  "dataStatus": "Committed source-derived data. MATLAB reads these authenticated resources directly; generation is not part of installation or runtime. Original numerical inputs, interpretation, attribution and license terms are retained."
 }

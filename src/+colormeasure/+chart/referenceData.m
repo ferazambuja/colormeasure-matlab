@@ -16,7 +16,7 @@ if strcmp(definition.kind,'custom')
         'cells',cells,'context',struct(),'provenance',provenance);
     return
 end
-manifestDigest = '8a83d21ac0bf6bf0be60363a1bbd52a15fbf846cffa742ae8996c6c1a2e2f029'; % Updated by generateReferences.py.
+manifestDigest = '1feec9496324d71039e9222bb5d83450bc00d342b1673f98a75121b1fa950f38'; % Pins the committed resource manifest.
 root=colormeasure.root();
 manifest=authenticatedJson(fullfile(root,'resources','provenance','chart-reference-source.json'),manifestDigest,65536);
 assert(isstruct(manifest)&&isscalar(manifest)&& ...

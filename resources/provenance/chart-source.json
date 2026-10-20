@@ -3,11 +3,6 @@
   "version": 1,
   "package": "colormeasure.chart",
   "pathBase": "project root",
-  "generator": {
-    "path": "tools/charts/generateDefinitions.py",
-    "revision": "structural-v1",
-    "sha256": "2b94425eb45b9f8c9e1fda2fee08e9f32f11280068cc8996f5e9e29a2510a726"
-  },
   "upstream": {
     "release": "ArgyllCMS 3.5.0",
     "archive": "https://www.argyllcms.com/Argyll_V3.5.0_src.zip",
@@ -37,8 +32,6 @@
     "SG source locations preserve column-major order and zero padding. C06 and C07 retain raw sourceId 26; C07 exportId is corrected to 27."
   ],
   "patchNamesSource": "https://www.xrite.com/-/media/xrite/files/literature/misc/c/cxf3_schema_overview_en.pdf",
-  "permittedDataUse": "These structural mappings retain source-derived identifiers from ArgyllCMS 3.5.0 under AGPL-3.0. The authenticated ref/ReadMe.txt assigns both source targets to ref/License.txt; the verbatim terms are retained in resources/charts/ARGYLL-AGPL-3.0.txt. The application's MIT license does not relabel this material. Section 2 permits local use and local copies not conveyed to others. Local testing copies retain the complete resources, generator, attribution and license. External distribution requires a separate assessment of the combined distribution and corresponding-source obligations. This structural generator supplies no numerical palette. Separate frozen historical illustrations and original numerical sources retain their own chart-reference-source.json manifest and the same source terms.",
-  "redistributionStatus": "AGPL-3.0 terms retained; local testing copies permitted; external distribution not cleared",
   "sourceTerms": {
     "license": "AGPL-3.0",
     "path": "resources/charts/ARGYLL-AGPL-3.0.txt",
@@ -53,5 +46,6 @@
       "path": "resources/charts/sg.json",
       "sha256": "aa2287a68355515f0988d5e340d1176a775fce55be340d3d550d8fc0bb47037a"
     }
-  ]
+  ],
+  "dataStatus": "Committed source-derived data. MATLAB reads these authenticated resources directly; generation is not part of installation or runtime. Original numerical inputs, interpretation, attribution and license terms are retained."
 }

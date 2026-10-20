@@ -8,7 +8,7 @@ The session does not require a spectrum or a graphical interface.
 ## Start a session
 
 Add the repository **src** folder to the MATLAB path, as described in the
-[instrument guide](../../README.md#instrument-workflows). For example, after
+[instrument guide](../../README.md#use-the-drivers-in-your-scripts). For example, after
 [PR-655 setup](../drivers/pr/README.md#setup), use an existing destination folder:
 
 ```matlab
@@ -633,11 +633,10 @@ Classic's 4 × 6 layout and descriptive names follow the manufacturer's
 [chart guide](https://calibrite.com/know-your-chart-a-color-perfectionists-guide-to-the-24-patch-colorchecker-classic/).
 The application's column-letter/row-number convention is distinct from source
 reference labels. The [preset provenance](../../resources/provenance/chart-source.json)
-records the pinned ArgyllCMS release, source digests and mapping corrections.
-For example, application B1 is Classic patch 2; the pinned
-Argyll Classic reference calls that location A2. SG has 10 rows and 14 columns;
-[Argyll's chart scenarios](https://www.argyllcms.com/doc/Scenarios.html) describe
-its A1–N10 locations. The saved mapping preserves source identities explicitly.
+records source files, digests and mapping corrections.
+For example, application B1 is Classic patch 2; the original reference file
+calls that location A2. SG has 10 rows and 14 columns, with source locations
+A1–N10. The saved mapping preserves these source identities explicitly.
 Layout and names provide no measured values or claim about a particular chart's
 condition, edition or accuracy. SG's raw source identifiers include a duplicate;
 the saved mapping distinguishes that original `SourceId` from its unique
@@ -657,7 +656,7 @@ end
 
 Saved records remain ordinary structs; loading them does not reconnect an
 instrument. Instrument-specific fields and CSV columns are documented in the
-[instrument guides](../../README.md#instrument-workflows).
+[instrument guides](../../README.md#use-the-drivers-in-your-scripts).
 
 ### Unconfirmed connection cleanup
 
@@ -936,5 +935,5 @@ and [`clear` restrictions](https://www.mathworks.com/help/matlab/ref/clear.html)
 ## Tests
 
 The [shared testing guide](../testing/workflow.md) covers software checks and manual checks
-of the window. Each [instrument guide](../../README.md#instrument-workflows)
+of the window. Each [instrument guide](../../README.md#use-the-drivers-in-your-scripts)
 provides its hardware checklist.

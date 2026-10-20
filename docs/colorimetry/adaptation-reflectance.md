@@ -16,10 +16,6 @@ XYZ or spectra and do not establish calibration or viewing-condition agreement.
 | Surface color under a target illuminant | [`reflectanceXYZ`](../../src/+colormeasure/+colorimetry/reflectanceXYZ.m) | Spectral factor and target illuminant SPD |
 | D50, D65 or A spectrum | [`illuminantSpectrum`](../../src/+colormeasure/+colorimetry/illuminantSpectrum.m) | Name and wavelength grid within the bundled range |
 
-Related workflow reference: [ArgyllCMS `spotread`](https://www.argyllcms.com/doc/spotread.html)
-describes Bradford white-relative display mode (`-ew`) and illuminant selection
-for reflection/transmission spectra (`-i`).
-
 ## Linear Bradford adaptation
 
 `adaptXYZ(XYZ, sourceWhiteXYZ, destinationWhiteXYZ)` accepts real finite

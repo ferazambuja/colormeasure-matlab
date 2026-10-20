@@ -18,7 +18,7 @@
     },
     {
       "path": "docs/colorimetry/adaptation-reflectance.md",
-      "sha256": "9c117371b68121fc510b449f1d53cedd2815c34c4077dd67426fcbb081ee354a"
+      "sha256": "3ee5a2480588d700fb6fdea73e6ed6ac8b9baa2d36a04ca9cb2f39d27896c828"
     },
     {
       "path": "docs/colorimetry/cct.md",
@@ -26,7 +26,7 @@
     },
     {
       "path": "docs/colorimetry/chart-colors.md",
-      "sha256": "6f021a703a9cc4d6e9193884c8343b5e003b63417dd8af17baf8ea44b1b2eb5a"
+      "sha256": "68c6606b770c8b11dd765967cbfccd60d5e72d3782a38128812867bba4454af8"
     },
     {
       "path": "docs/colorimetry/compatibility.md",
@@ -38,11 +38,11 @@
     },
     {
       "path": "docs/colorimetry/position-checks.md",
-      "sha256": "7024f7b75cd39e1a6b38094447b8d7dbaa51e6802af96a00385bcc8f6ad41fa6"
+      "sha256": "1d04360a0b509eb720dd2c17eefc73a3d0d36a36434d474d78dfecf443db040f"
     },
     {
       "path": "docs/colorimetry/science.md",
-      "sha256": "c0d7b4f1aea424a97a2c0a7b0b5a7d229d7289857d71195182d8f2170025c4f8"
+      "sha256": "b6990905526474e2dbe0b5f4ea70e10d72b934c1fdc066e22e12ba241ad5c427"
     },
     {
       "path": "licenses/colorimetry-MIT.txt",
@@ -243,10 +243,6 @@
     {
       "path": "tools/colorimetry/generateCompatibilityFixtures.m",
       "sha256": "ec291d0f9da1fed222dad0fcf80b725d2375da9419c97ae15cddfb52fa5ce898"
-    },
-    {
-      "path": "tools/colorimetry/generateManifest.py",
-      "sha256": "289c936127eb6b193c7f28d20f60bcb81bf71330a5fcb158cd44c1a98958114c"
     },
     {
       "path": "tools/colorimetry/private/prepareSchoolReference.m",

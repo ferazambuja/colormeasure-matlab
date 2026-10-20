@@ -185,4 +185,4 @@ acquired measurement values or replace `measurements.mat`. Live comparison
 results are likewise separate analysis; save them explicitly if needed.
 
 For more detail, see the [session API](session/README.md) and
-[instrument guides](../README.md#instrument-workflows).
+[instrument guides](../README.md#use-the-drivers-in-your-scripts).

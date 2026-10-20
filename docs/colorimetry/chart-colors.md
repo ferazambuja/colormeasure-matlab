@@ -1,6 +1,6 @@
 # Relative chart colors
 
-The direct serial student frontend retains native radiance/luminance and
+The MATLAB app retains native radiance/luminance and
 instrument-scale readings without turning them into relative reflectance.
 Measured relative chart fills are unavailable. Local historical preset
 illustrations and the shared MATLAB color-calculation kernels remain.
@@ -24,7 +24,7 @@ and `CIE1931_2deg`. All samples share that white's Y. The function neither
 estimates a white from the brightest patch nor rescales patches individually.
 Scaling samples and white together leaves the displayed RGB unchanged.
 
-The generated Classic reference uses Argyll's ICC-rounded D50
+The packaged Classic reference uses ICC-rounded D50
 white. SG's source XYZ has no qualified original white/observer basis,
 so its expected values are retained without a reference-color rendering.
 
@@ -98,42 +98,32 @@ Finite nonnegative XYZ rows are eligible, including black. Invalid rows yield
 
 ## Historical preset illustrations
 
-The [reference manifest](../../resources/provenance/chart-reference-source.json)
-pins the original numerical files, exact Argyll consumer sources, generator
-and existing build-time Python CGATS/science modules. The original files and
-their [AGPL terms](../../resources/charts/ARGYLL-AGPL-3.0.txt) accompany the
-derived references. The application's MIT license does not relabel that data.
-See [resource attribution and reproduction](../../resources/charts/README.md).
+The [reference source record](../../resources/provenance/chart-reference-source.json)
+identifies the original numerical files and the interpretation used for these
+fixed reference data. See [chart-data credits and terms](../../resources/charts/README.md).
 
 | Preset | Retained source values | Interpretation used for illustration |
 |---|---|---|
-| Classic | Argyll 3.5.0 `ref/ColorChecker.cie`, created 18 February 2008; 24 Lab rows | `scanin.c:1403–1408` converts Lab with `icmD50`, then scales XYZ by 100. The existing Python `lab_to_xyz` performs this build-time inverse of the [CIE Lab definition](https://cie.co.at/eilvterm/17-23-076). Original Lab rows remain retained. |
+| Classic | `ColorChecker.cie`, created 18 February 2008; 24 Lab rows | Inverse of the [CIE Lab definition](https://cie.co.at/eilvterm/17-23-076) under the ICC-rounded D50 white, with XYZ on a Y=100 scale. Original Lab rows remain retained. |
 | Digital SG | `ref/ColorCheckerSG.ti2`, created 10 February 2014; 140 expected XYZ rows | Retained source data only. The original white/observer basis is unestablished, so reference colors are unavailable. Device RGB fields are not a substitute sRGB palette. |
 
-Both source files lack explicit illuminant/observer keywords. The Classic
-Lab interpretation follows its pinned Argyll consumer. `icc_util.c:2080–2095`
-identifies the D50 white with the 1931 observer and rounds `(0.9642,1,0.8249)`
-to ICC s15Fixed16 before multiplying by 100. The resulting retained white is
+Both source files lack explicit illuminant/observer keywords. The retained
+Classic interpretation uses the CIE 1931 observer and D50 white, rounding
+`(0.9642,1,0.8249)` to ICC s15Fixed16 before multiplying by 100.
+The resulting retained white is
 `(96.4202880859375,100,82.49053955078125)`. This establishes a historical
 **expected illustration convention**, not original specimen measurement
 conditions, physical chart edition, backing, geometry or spectral reflectance.
 These references are not quantitative position-test or acceptance standards.
 
-For SG, `chartread.c:193,3128–3132` retains expected XYZ on a scale of 100 and
-`:149–163` uses D50 Lab for its expected-value comparison. That consumer
-assumption does not establish the source values' original colorimetric basis
+SG's expected XYZ is retained on its original scale of 100. Assigning a D50
+white would not establish the source values' original colorimetric basis
 for display. The application therefore preserves the original values and
 mapping while showing an explicit unavailable reference-color state. It does
 not infer a replacement white or adjust the data to make the patches neutral.
 Direct measured colors remain unavailable. Custom targets have no invented
-reference palette; imported target interpretation is absent from this installation.
-
-The separate `doc/SG_header.txt` in the
-[ArgyllCMS 3.5.0 archive](https://www.argyllcms.com/Argyll_V3.5.0_src.zip)
-names a manufacturer `digital_colorchecker_sg_l_a_b.txt` dataset and declares
-Lab columns. It does not establish a numerical relationship between that
-dataset and the retained TI2 XYZ. A white specified for a separate Lab file
-cannot be assigned to these XYZ values without that relationship.
+reference palette. A white declared for a separate Lab dataset cannot be
+assigned to these XYZ values without an established numerical relationship.
 
 Source locations, not merely raw source IDs, map reference cells to the
 structural chart. In SG, `C06` and `C07` both have raw ID 26; their distinct

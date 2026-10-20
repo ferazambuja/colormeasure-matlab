@@ -39,3 +39,10 @@ details and local paths. See the [feedback guide](../feedback.md) for help.
 
 For further use, see the [window guide](../ui/README.md) and
 [saved-data examples](../saved-data.md).
+
+## What the device test checks
+
+The command checks communication, three readings, saving and the results window.
+It does not calibrate the instrument or establish optical accuracy. A software
+test uses simulated responses; a device-test report records what happened with
+your connected instrument.

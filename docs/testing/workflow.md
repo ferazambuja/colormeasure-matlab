@@ -1,4 +1,4 @@
-# Shared measurement tests
+# MATLAB software tests
 
 ## Automated checks
 
@@ -44,23 +44,8 @@ selected scope. Selecting all groups does not itself establish completion.
 The `workflow` group includes the shared public-runner checks for all native
 families; selecting only a device group runs that family's driver tests.
 
-On a computer with spare memory, a run can be split across several worker
-processes:
-
-```matlab
-report = colormeasure.runTests(tempname, 'Workers', 3);
-```
-
-Each worker is a separate MATLAB process, needing about the memory of one MATLAB
-session. Each has its own startup and finish hooks, serial-port guards and
-temporary folder. Worker *k* of *n* runs every *n*-th test, starting at test
-*k*. The report folder's top-level files merge the workers' results in the
-usual test order. The `worker-1`, `worker-2` … folders keep each process's log
-and partial results, and Code Analyzer runs in worker 1 only. A merged run
-passes only when every worker discovered the same tests in the same order and
-every discovered test ran exactly once, by name, and passed. `report.json`
-records that order as `shard.suiteDigest`, a SHA-256 of the test names. The
-default is one worker.
+Use the default single worker and run one suite at a time. For a focused
+change, select the affected groups rather than repeating every group.
 
 The report folder contains:
 
@@ -193,12 +178,11 @@ Record exact source, window size, actual input and saved-data checks. Physical
 calibration, disconnect behavior and native file choosers require separate
 checks. Injected software states do not establish those outcomes.
 
-### Standalone direct dependency boundary
+### Test scope
 
-The student tree contains no operational Python backend, TI2 import or TI3
-publisher. Direct tests use the ordinary public five-group discovery and
-hardware guards, including native saved-source and changed-file refusals.
-Only this direct installation's five groups count toward its coverage.
+The five bundled groups cover MATLAB instrument drivers, calculations and
+app workflows. Serial guards prevent software tests from operating connected
+instruments. The report records the groups and tests that actually ran.
 
 ## Numerical and presentation checks
 
@@ -235,7 +219,7 @@ selected until you choose an entry. Cancel must leave the session unchanged.
 - [Device identity checks](../beta-testing/DEVICE_IDENTITY.md)
 - [Detailed UI checks](../beta-testing/UI.md)
 
-Students can use the shorter [demo and device-test quick start](../beta-testing/README.md).
+Start with the shorter [demo and device-test quick start](../beta-testing/README.md).
 
 ## Maintaining tests
 

@@ -1,7 +1,7 @@
 # CR beta testing
 
-> **TEMPORARY BETA VALIDATION GUIDE**
-> Scope: [validation status and interpretation](README.md#validation-status-and-interpretation).
+> **Device-test checklist**
+> Scope: [what the device test checks](README.md#what-the-device-test-checks).
 
 This device-validation checklist covers CR-100, CR-250 and CR-300.
 Use the [beta testing guide](README.md) for the download, software test
