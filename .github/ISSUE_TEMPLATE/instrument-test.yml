@@ -7,8 +7,9 @@ body:
       value: |
         Run `testLabInstrument` from the extracted package folder.
         The report ZIP is saved in Desktop → ColorMeasurement-Reports.
-        Review it before sharing: it may include readings, device details and local paths.
-        If no ZIP was created, paste the error instead.
+        Attachments are public. The ZIP holds your readings, the instrument's serial number
+        and settings, and file paths that can show your user name. To keep those private,
+        leave it out and describe the result. If no ZIP was created, paste the error.
   - type: dropdown
     id: instrument
     attributes:
@@ -38,6 +39,6 @@ body:
     id: report
     attributes:
       label: Report or notes
-      description: Drag the ZIP here, or describe what happened. Include any error text.
+      description: Attach the ZIP, or describe what happened. Include any error text.
     validations:
       required: true

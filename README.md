@@ -50,7 +50,8 @@ accuracy or calibration.
 Use **MATLAB R2026b or newer**, with the JVM enabled.
 
 1. Download and extract the ZIP.
-2. Open MATLAB and set its **Current Folder** to the extracted **ColorMeasurement-MATLAB** folder.
+2. Open MATLAB and set its **Current Folder** to the extracted **ColorMeasurement-MATLAB** folder
+   (or to your clone of this repository).
 
 ### Explore the UI without hardware
 
@@ -82,8 +83,11 @@ look at the results window.
    check fails. MATLAB prints its location and the feedback link.
 
 After a passed check, the app reopens automatically. You can stop there.
-Reports can contain readings, device details and local paths. Review yours before
-sharing it publicly. See the [feedback guide](docs/feedback.md) for help or other feedback.
+Issue attachments are public. The ZIP holds your readings, the instrument's
+serial number and settings, and file paths that can show your computer user
+name. To keep those private, leave the ZIP out and paste the result and any
+error message instead.
+See the [feedback guide](docs/feedback.md) for help or other feedback.
 
 ## Use the app
 

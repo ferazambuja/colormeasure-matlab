@@ -3,7 +3,7 @@
 ## With an instrument
 
 Extract the download, set MATLAB's **Current Folder** to
-**ColorMeasurement-MATLAB**, then run:
+**ColorMeasurement-MATLAB** (or to your clone of the repository), then run:
 
 ```matlab
 testLabInstrument
@@ -19,9 +19,11 @@ testLabInstrument
 After a passed check, the app reopens. Select **New batch** to try your own
 measurements, or stop there.
 
-Nothing is uploaded automatically. Reports can include readings, device details
-and local paths; review them before sharing publicly. You can report the problem
-without attaching the archive.
+Nothing is uploaded automatically, and issue attachments are public. The ZIP
+holds your readings, the instrument's serial number and settings, and file
+paths that can show your computer user name. To keep those private, leave the
+ZIP out: choose the result and paste any error message, or the `Result` line
+from `report.txt` in the report folder.
 
 ## Without an instrument
 

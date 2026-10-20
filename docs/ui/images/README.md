@@ -1,41 +1,17 @@
-# Current direct UI screenshots
+# Window screenshots
 
-The current direct app images, captured on 15 October 2026, show generated
-CR-250 readings, the measurement settings dialog and a Classic chart in progress.
-[Capture metadata](direct-capture-record.json) records their source/UI digest,
-platform, origin and image hashes. They were captured from actual R2026b windows;
-no physical instrument was operated and no calibration or accuracy is established.
+Every image shows generated readings and settings in MATLAB R2026b on macOS.
+No physical instrument was operated. The images do not establish calibration,
+measurement accuracy, keyboard access or screen-reader support.
 
-- [Measurement gallery](direct-serial-gallery.jpg)
-- [Measurement settings](direct-serial-settings.jpg)
-- [Guided chart](direct-serial-chart.jpg)
+| Image | Shows |
+| --- | --- |
+| [Measurement gallery](direct-serial-gallery.jpg) | Twelve generated CR-250 readings with spectra and chromaticity |
+| [Guided chart](direct-serial-chart.jpg) | A ColorChecker Classic chart with six generated readings |
+| [CR-250 settings](direct-serial-settings.jpg) | The current settings dialog with a generated readback |
+| [CR-100](cr100-settings.png), [CR-300](cr300-settings.png) and [CS-2000](cs2000-settings.png) settings | Earlier layouts of each model's settings dialog; the controls described in the [window guide](../README.md) are current |
+| [PR spectral adaptation](pr655-adaptation.png) | An earlier PR-655 layout of the chromatic-adaptation view |
 
-## Additional settings illustrations
-
-The PR, CR and CS-2000 guides also include five earlier images of generated
-readings and settings. Their dates, source identities and image hashes are in
-[capture-record.json](capture-record.json). Layout details can differ from the
-current window; use the guide text for the current controls.
-
-Historical source identities in the capture records document where an image
-was made. They are not revisions in this public repository's history. The
-images and their metadata are included here; no earlier checkout is needed.
-
-To inspect the current native UI without equipment, add this installation’s
-`src` folder and open a generated gallery:
-
-```matlab
-session = colormeasure.demo('CR250', 'gallery');
-```
-
-Other model keys are `PR655`, `CR100`, `CR300` and `CS2000`. **Settings...**
-shows the chosen synthetic instrument’s settings. Data, Compare, Color and the
-log inspect the same retained demonstration readings.
-
-A new capture must record its exact source revision, MATLAB release, model,
-generated-data origin, window dimensions, image dimensions, theme and image
-hash. Check labels, scientific units, plot ranges and visible controls before
-using it in a guide. Logical window dimensions may differ from image pixels
-because of display scaling. A rendered window does not establish native input,
-physical instrument behavior or screen-reader support. Keep those validations
-separate in the [testing guide](../../testing/workflow.md).
+To try the app without equipment, open
+[demoDirectInstruments.m](../../../demoDirectInstruments.m) in MATLAB and click
+**Run**. Choose a model, then select **Measure** to add generated readings.

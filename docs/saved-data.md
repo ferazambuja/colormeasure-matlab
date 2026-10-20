@@ -171,8 +171,9 @@ identity-only chart CSV does not imply complete numerical chart results.
 Run `testLabInstrument` from the extracted folder and follow the prompts.
 Open an [instrument test issue](https://github.com/ferazambuja/colormeasure-matlab/issues/new?template=instrument-test.yml)
 and attach the ZIP from **Desktop → ColorMeasurement-Reports**, even if the
-check fails. Review the report before posting; MATLAB prints its location
-and the feedback link. See the [feedback guide](feedback.md).
+check fails. MATLAB prints its location and the feedback link. Attachments are
+public; the [feedback guide](feedback.md) lists what the ZIP contains and how
+to report without it.
 
 After a passed check, select **New batch** in the reopened window to take
 your own readings.

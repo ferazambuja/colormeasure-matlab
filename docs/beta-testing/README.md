@@ -2,7 +2,7 @@
 
 Use MATLAB **R2026b or newer**, with the JVM enabled. Extract the
 [download](../../README.md#start-here) and set MATLAB's **Current Folder** to
-**ColorMeasurement-MATLAB**.
+**ColorMeasurement-MATLAB** (or to your clone of the repository).
 
 ## Open the demo
 
@@ -36,8 +36,11 @@ look at the results window.
    check fails. MATLAB prints its location and the feedback link.
 
 After a passed check, the app reopens automatically. You can stop there.
-Review the report before posting it publicly: it can contain readings, device
-details and local paths. See the [feedback guide](../feedback.md) for help.
+Issue attachments are public. The ZIP holds your readings, the instrument's
+serial number and settings, and file paths that can show your computer user
+name. To keep those private, leave the ZIP out and paste the result and any
+error message instead.
+See the [feedback guide](../feedback.md) for help.
 
 For further use, see the [window guide](../ui/README.md) and
 [saved-data examples](../saved-data.md).
