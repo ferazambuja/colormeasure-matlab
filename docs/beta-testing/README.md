@@ -6,13 +6,15 @@ Use MATLAB **R2026b or newer**, with the JVM enabled. Extract the
 
 ## Open the demo
 
+Open [demoDirectInstruments.m](../../demoDirectInstruments.m) and click **Run**, or enter:
+
 ```matlab
-setupColorMeasure
-session = colormeasure.demo('CR250', 'gallery');
+demoDirectInstruments
 ```
 
-Explore **Data**, **Compare**, **Color** and **Settings...** with generated
-readings. No instrument is needed.
+Choose an instrument model, then select **Measure** to add generated readings.
+Explore **Data**, **Compare**, **Color** and **Settings...**, or try
+**Chart / ColorChecker…**. No instrument is needed.
 
 ## Test a lab instrument
 

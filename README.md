@@ -1,6 +1,6 @@
 # Color Measurement for MATLAB
 
-A standalone MATLAB app and serial drivers for
+A MATLAB measurement app with instrument drivers for
 [Photo Research PR-655](docs/drivers/pr/README.md),
 [Colorimetry Research CR-100, CR-250 and CR-300](docs/drivers/cr/README.md), and
 [Konica Minolta CS-2000 and CS-2000A](docs/drivers/cs2000/README.md).
@@ -8,7 +8,7 @@ Collect readings, compare samples and save results for your own MATLAB scripts.
 
 **[Download the UI + drivers ZIP](https://github.com/ferazambuja/colormeasure-matlab/releases/download/v0.1.0-beta.1/ColorMeasurement-MATLAB-Beta.zip)**
 
-Requires **MATLAB R2026b or newer**, with the JVM enabled.
+Runs inside **MATLAB R2026b or newer**, with the JVM enabled.
 
 **Public beta:** try the demo or help test a connected instrument. Physical
 instrument testing is still pending; this release does not establish measurement
@@ -50,18 +50,19 @@ accuracy or calibration.
 Use **MATLAB R2026b or newer**, with the JVM enabled.
 
 1. Download and extract the ZIP.
-2. Set MATLAB's **Current Folder** to the extracted **ColorMeasurement-MATLAB** folder.
+2. Open MATLAB and set its **Current Folder** to the extracted **ColorMeasurement-MATLAB** folder.
 
 ### Explore the UI without hardware
 
+Open [demoDirectInstruments.m](demoDirectInstruments.m) and click **Run**, or enter:
+
 ```matlab
-setupColorMeasure
-session = colormeasure.demo('CR250', 'gallery');
+demoDirectInstruments
 ```
 
-Try **Data**, **Compare**, **Color** and **Settings...**. For generated readings
-that you collect yourself, use `colormeasure.demo('CR250')`. Other model keys:
-`PR655`, `CR100`, `CR300`, `CS2000`.
+Choose an instrument model, then select **Measure** to add generated readings.
+Try **Data**, **Compare**, **Color**, **Settings...** and **Chart / ColorChecker…**.
+No instrument is needed.
 
 ### Test an instrument and share feedback
 
@@ -86,9 +87,10 @@ sharing it publicly. See the [feedback guide](docs/feedback.md) for help or othe
 
 ## Use the app
 
-For a normal session after setup:
+For your own measurements, run from the extracted folder:
 
 ```matlab
+setupColorMeasure
 session = colormeasure.app;   % choose a model and save folder
 ```
 
