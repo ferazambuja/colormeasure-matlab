@@ -39,7 +39,7 @@ This repository's [definition generator](../../tools/charts/generateDefinitions.
 and [reference generator](../../tools/charts/generateReferences.py) create the
 application resources from those retained sources; they are not upstream
 ArgyllCMS tools.
-Standalone student packages retain the original values and numerical source
+Standalone packages retain the original values and numerical source
 files, generated data in editable JSON form, application source, generators,
 attribution, source manifests and full license. Recipients receive these chart
 resources under their retained AGPL-3.0 terms; keep the corresponding source and

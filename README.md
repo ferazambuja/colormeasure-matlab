@@ -1,13 +1,14 @@
 # Color Measurement for MATLAB
 
-A measurement app and scriptable drivers for PR-655, CR-100/250/300 and
-CS-2000 instruments. Collect readings, compare samples and save results for
-your own MATLAB scripts.
+A standalone MATLAB app and serial drivers for
+[Photo Research PR-655](docs/drivers/pr/README.md),
+[Colorimetry Research CR-100, CR-250 and CR-300](docs/drivers/cr/README.md), and
+[Konica Minolta CS-2000 and CS-2000A](docs/drivers/cs2000/README.md).
+Collect readings, compare samples and save results for your own MATLAB scripts.
 
 **[Download the UI + drivers ZIP](https://github.com/ferazambuja/colormeasure-matlab/releases/download/v0.1.0-beta.1/ColorMeasurement-MATLAB-Beta.zip)**
 
-Requires **MATLAB R2026b or newer**, with the JVM enabled. No Python, Argyll or
-MCSL-Tools installation is needed.
+Requires **MATLAB R2026b or newer**, with the JVM enabled.
 
 **Public beta:** try the demo or help test a connected instrument. Physical
 instrument testing is still pending; this release does not establish measurement
@@ -128,8 +129,8 @@ end
 | `CS2000` | [Konica Minolta CS-2000 / CS-2000A](docs/drivers/cs2000/README.md) | Spectrum and instrument XYZ |
 
 Driver guides include setup and examples for your own scripts.
-The drivers use namespaced class names. Their APIs and saved formats differ
-from the original MCSL drivers; they are not complete drop-in replacements.
+Use the documented `colormeasure.drivers` class names and data fields.
+These are not complete drop-in replacements for older drivers.
 PR-670 support is tentative.
 
 ## Use MATLAB commands
@@ -145,24 +146,11 @@ and reference-based reflectance calculations.
 [color calculations](docs/colorimetry/science.md) document equations, sources,
 quantity conventions and interpretation limits.
 
-## Attribution and licenses
+## License and credits
 
-Fernando Voltolini de Azambuja developed the measurement sessions, instrument
-updates, graphical workflow, tests and color-calculation implementation and
-adaptations. The project retains MCSL-Tools contributions and scientific methods
-from the sources identified in the documentation.
-
-The original [MCSL license](LICENSE.txt) and [contributor attribution](OWNERS.txt)
-remain included. The [colorimetry code license](licenses/colorimetry-MIT.txt),
-[colorimetry notices](docs/colorimetry/THIRD_PARTY_NOTICES.md),
-[PR driver notices](docs/drivers/pr/THIRD_PARTY_NOTICES.md), and
-[CIE data terms](resources/colorimetry/README.md) identify their respective scope.
-The [guided-chart resources and source terms](resources/charts/README.md) retain
-ArgyllCMS's AGPL-3.0 terms for the source-derived chart identifiers, numerical
-reference data and retained original chart-source files. The
-application's MIT license does not replace those terms. The standalone package
-includes the application source, chart data in source form, original chart
-files, generators, attribution and applicable licenses.
+Developed by Fernando Voltolini de Azambuja. Application code is available under
+the [MIT license](LICENSE.txt). Third-party contributions and reference data are
+credited in [credits and data licenses](docs/credits.md).
 
 ## More guides
 
