@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Run `testLabInstrument` from the extracted package folder.
+        Open `testLabInstrument.m` in MATLAB and click **Run**.
         The report ZIP is saved in Desktop → ColorMeasurement-Reports.
         Attachments are public. The ZIP holds your readings, the instrument's serial number
         and settings, and file paths that can show your user name. To keep those private,

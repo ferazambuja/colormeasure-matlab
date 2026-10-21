@@ -48,7 +48,7 @@ their units, observer or XYZ scale match.
 
 | Reading field | Meaning |
 | --- | --- |
-| `name`, `notes` | Sample annotations; repeated names are allowed |
+| `name`, `notes` | Current sample annotations; repeated names are allowed. Edited readings keep their originals in `batchInfo.readingAnnotations` |
 | `XYZ` | Three retained tristimulus values; inspect their source and units |
 | `lambda` | Wavelength vector in nm; empty for CR-100 |
 | `radiance` (PR) or `spectralData` (CR/CS) | Spectrum aligned with `lambda`; CR-100 has no spectrum |
@@ -75,8 +75,8 @@ CSV does not contain every raw report or native field retained in MAT.
   or instrument calibration.
 - Host-requested `configuration`, distinct from device-reported settings.
 - `segmentId`, connection-cleanup status and any recorded cleanup confirmations.
-- `readingAnnotations` and `annotationRevision`, preserving original annotations
-  and the latest edit information.
+- `readingAnnotations`: for each edited reading, its index, original and current
+  name and notes, and the latest edit time. `annotationRevision` counts edits.
 - `chart` for guided runs: definition, cells, passes, attempts, selected results,
   references/context and linked source records; `pendingSample` also exists there.
 
@@ -167,17 +167,25 @@ For `chart-selected.csv`, use the same explicit `readtable` options, then inspec
 separate chart table, not the acquisition-order CSV above. A missing, stale or
 identity-only chart CSV does not imply complete numerical chart results.
 
-## Share a device test
+## Device-test reports
 
-Run `testLabInstrument` from the extracted folder and follow the prompts.
-Open an [instrument test issue](https://github.com/ferazambuja/colormeasure-matlab/issues/new?template=instrument-test.yml)
-and share the result and any error, even if the check fails. You can attach the
-ZIP from **Desktop → ColorMeasurement-Reports**. MATLAB prints its location. Attachments are
-public; the [feedback guide](feedback.md) lists what the ZIP contains and how
-to report without it.
+`testLabInstrument` saves its readings in a new report folder, normally under
+**Desktop → ColorMeasurement-Reports**, and packs that folder into a ZIP beside it:
 
-After a passed check, select **New batch** in the reopened window to take
-your own readings.
+```text
+ColorMeasurement-Reports/
+  instrument-check-CR250_20261015_143208_013/
+    report.txt             # result and each step
+    report.json
+    diagnostic.mat         # report, readings, session log and settings
+    batch_20261015_143231_402/
+      measurements.mat
+      measurements.csv
+  instrument-check-CR250_20261015_143208_013.zip
+```
+
+Load its `measurements.mat` as shown above. Read the [feedback guide](feedback.md)
+before sharing the ZIP.
 
 ## Separate analysis files
 

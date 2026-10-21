@@ -16,10 +16,11 @@ For command-line measurement, follow the steps below.
 Use MATLAB R2026b or newer. The instrument's USB connection must appear as a
 serial port.
 
-Set **Current Folder** to the project root and add its runtime source folder:
+Set **Current Folder** to the extracted download or repository folder and add
+the app's source folder to the path:
 
 ```matlab
-addpath(fullfile(pwd,'src'));
+setupColorMeasure
 ```
 
 Follow the [preparation guide](preparation.md) for warm-up, aiming and

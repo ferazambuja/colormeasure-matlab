@@ -8,7 +8,8 @@ The application code uses the [MIT license](../LICENSE.txt).
 
 The project builds on instrument and colorimetry work from the RIT Munsell Color
 Science Laboratory's MCSL-Tools toolbox. Its copyright notice and
-[contributor credits](../OWNERS.txt) are retained. The PR driver also adapts
+[contributor credits](../OWNERS.txt) are retained. MCSL-Tools is not publicly
+available, so links to its source revisions need access. The PR driver also adapts
 MIT-licensed Psychtoolbox routines.
 
 - [Colorimetry contributions and scientific sources](colorimetry/THIRD_PARTY_NOTICES.md)

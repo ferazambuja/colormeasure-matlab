@@ -12,11 +12,11 @@ to the source revision and MATLAB version recorded in each report. Historical
 
 ## Quick start
 
-Set MATLAB Current Folder to the project root and add `src`. Wavelengths
-are explicit double-precision values, in nanometres:
+Set MATLAB Current Folder to the project root and run `setupColorMeasure`.
+Wavelengths are explicit double-precision values, in nanometres:
 
 ```matlab
-addpath(fullfile(pwd, 'src'));
+setupColorMeasure
 lambda = (380:4:780)';
 spectrum = exp(-0.5*((lambda-550)/40).^2); % Synthetic spectral density
 XYZ = colormeasure.colorimetry.spectra2XYZ(spectrum, lambda);

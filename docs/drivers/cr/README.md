@@ -13,11 +13,12 @@ results. The command-line workflow below uses the `colormeasure.drivers.cr` driv
 
 ## First measurement
 
-Use MATLAB R2026b or newer, with the meter recognized as a serial port. With
-**Current Folder** set to the project root, add the runtime source folder:
+Use MATLAB R2026b or newer, with the meter recognized as a serial port. Set
+**Current Folder** to the extracted download or repository folder and add the
+app's source folder to the path:
 
 ```matlab
-addpath(fullfile(pwd, 'src'));
+setupColorMeasure
 ```
 
 Connect the meter and prepare a stable target using the

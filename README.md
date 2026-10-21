@@ -37,7 +37,7 @@ accuracy or calibration.
 - **Try it without equipment.** Explore a gallery of generated readings or
   practice collecting samples and charts.
 
-![Current direct-serial measurement window with generated CR-250 readings](docs/ui/images/direct-serial-gallery.jpg)
+![Measurement window with generated CR-250 readings](docs/ui/images/direct-serial-gallery.jpg)
 
 *Demo with generated readings.*
 
@@ -46,8 +46,6 @@ accuracy or calibration.
 *Chart mode with generated readings.*
 
 ## Start here
-
-Use **MATLAB R2026b or newer**, with the JVM enabled.
 
 1. Download and extract the ZIP.
 2. Open MATLAB and set its **Current Folder** to the extracted **ColorMeasurement-MATLAB** folder
@@ -84,12 +82,14 @@ look at the results window.
    and share the result and any error, even if the check fails. You can attach
    the ZIP from **Desktop → ColorMeasurement-Reports**. MATLAB prints its location.
 
-After a passed check, the app reopens automatically. You can stop there.
 Issue attachments are public. The ZIP holds your readings, the instrument's
 serial number and settings, and file paths that can show your computer user
 name. To keep those private, leave the ZIP out and paste the result and any
 error message instead.
-See the [feedback guide](docs/feedback.md) for help or other feedback.
+
+After a passed check, the app reopens. Select **New batch** and choose a save
+folder for your own measurements, or stop there. See the
+[feedback guide](docs/feedback.md) for other feedback.
 
 ## Use the app
 
@@ -139,7 +139,6 @@ end
 Driver guides include setup and examples for your own scripts.
 Use the documented `colormeasure.drivers` class names and data fields.
 These are not complete drop-in replacements for older drivers.
-PR-670 support is tentative.
 
 ## Use MATLAB commands
 
@@ -164,6 +163,9 @@ credited in [credits and data licenses](docs/credits.md).
 ## Guides
 
 - [Choose how to use the app and drivers](docs/overview.md)
+- [Try the demo or test an instrument](docs/beta-testing/README.md)
+- [Share feedback](docs/feedback.md)
 - [Use the window, charts, settings and analysis](docs/ui/README.md)
 - [Load saved data into your MATLAB scripts](docs/saved-data.md)
-- [Try the demo or send device-test feedback](docs/beta-testing/README.md)
+- [Collect batches from MATLAB scripts](docs/session/README.md)
+- [Run the software tests](docs/testing/workflow.md)

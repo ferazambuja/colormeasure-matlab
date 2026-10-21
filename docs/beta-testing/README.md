@@ -35,16 +35,14 @@ look at the results window.
    and share the result and any error, even if the check fails. You can attach
    the ZIP from **Desktop → ColorMeasurement-Reports**. MATLAB prints its location.
 
-After a passed check, the app reopens automatically. Select **New batch** for
-your own measurements, or stop there.
 Issue attachments are public. The ZIP holds your readings, the instrument's
 serial number and settings, and file paths that can show your computer user
 name. To keep those private, leave the ZIP out and paste the result and any
-error message instead.
-See the [feedback guide](../feedback.md) for help.
+error message instead. The [feedback guide](../feedback.md) has more help.
 
-For further use, see the [window guide](../ui/README.md) and
-[saved-data examples](../saved-data.md).
+After a passed check, the app reopens. Select **New batch** and choose a save
+folder for your own measurements, or stop there. For further use, see the
+[window guide](../ui/README.md) and [saved-data examples](../saved-data.md).
 
 ## Open the app directly
 
@@ -54,6 +52,9 @@ your instrument and save folder, then select **Measure** when ready.
 ## What the device test checks
 
 The command checks communication, three readings, saving and the results window.
+Like the app, it applies the instrument's automatic acquisition settings before
+each reading, which can change exposure and related settings on the instrument;
+see [measurement settings](../ui/README.md#measurement-settings).
 It does not calibrate the instrument or establish optical accuracy. A software
 test uses simulated responses; a device-test report records what happened with
 your connected instrument.

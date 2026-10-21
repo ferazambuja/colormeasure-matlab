@@ -38,8 +38,9 @@ Each reading needs a separate **Measure** action. Ctrl+Shift+M is its shortcut
 on all platforms when the Measure tab is ready. Finish editing text before
 using the shortcut.
 
-Closing the window hides the batch. Run **openColorMeasure.m** again to restore
-it. **Finish batch** ends acquisition for that batch; its results stay available.
+Closing the window hides the batch. Run **openColorMeasure.m** again and choose
+the same instrument to restore it. **Finish batch** ends acquisition for that
+batch; its results stay available.
 Keep MATLAB open until any save problem is resolved.
 
 ## Find your results
@@ -68,6 +69,8 @@ saved, and original annotations remain in MAT. Editing a chart reading's name
 does not change its patch. Editing a finished batch keeps it finished.
 
 ## Measurement settings
+
+![Measurement settings with a generated CR-250 readback](images/direct-serial-settings.jpg)
 
 The app applies automatic acquisition settings before each reading:
 

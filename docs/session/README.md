@@ -112,8 +112,8 @@ of the batch MAT; see [diagnostics](#diagnostics-and-provenance) to save it.
 
 ### Instrument settings
 
-The core `adapter()` examples above do not add automatic settings. To use the
-same recipe and controls as the app in a script, use a **uiAdapter**:
+To use the app's automatic recipe and settings controls in a script, use a
+**uiAdapter**:
 
 ```matlab
 adapter = colormeasure.drivers.cr.uiAdapter('CR250');

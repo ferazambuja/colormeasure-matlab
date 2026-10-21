@@ -69,8 +69,8 @@ The MATLAB installation and license must permit another process. A run over
 
 ### Optional original-driver comparisons
 
-Some tests compare against the original MCSL-Tools drivers. If you have that
-reference checkout, supply its root:
+Some tests compare against the original drivers in MCSL-Tools, which is not
+publicly available. If you have a checkout, supply its root:
 
 ```matlab
 schoolRoot = '/path/to/MCSL-Tools';
@@ -115,11 +115,6 @@ the affected instrument groups and `workflow` for changes to native settings or
 shared app behavior; include `colorimetry` for calculation changes. Preserve
 published numerical and original-driver references. An intentional output
 change needs an explanation, not a regenerated reference chosen to match it.
-
-Source-lifetime tests use a disposable source copy to check window restoration
-after presentation edits and refusal after runtime changes. They never edit the
-installed project. Users updating the app should finish saving and restart
-MATLAB; these tests do not make live updates a supported workflow.
 
 Detailed procedures are available for [PR-655](../beta-testing/PR655.md),
 [CR](../beta-testing/CR.md), [CS-2000](../beta-testing/CS2000.md),

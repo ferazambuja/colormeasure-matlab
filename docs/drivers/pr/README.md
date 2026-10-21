@@ -13,14 +13,15 @@ The steps below collect and save a batch from MATLAB commands.
 
 ## Setup
 
-Use MATLAB R2026b or newer, with the meter recognized as a serial port. Open
-the project root as Current Folder and add its runtime source folder once:
+Use MATLAB R2026b or newer, with the meter recognized as a serial port. Set
+**Current Folder** to the extracted download or repository folder and add the
+app's source folder to the path once:
 
 ```matlab
-addpath(fullfile(pwd, 'src'));
+setupColorMeasure
 ```
 
-Keep the complete repository together, including `resources/colorimetry`.
+Keep the folder's contents together, including `resources/colorimetry`.
 
 Power on the PR-655, connect its USB cable, and wait for startup. Aim and focus
 the meter at the target. Close other programs connected to it. Direct commands
@@ -171,7 +172,6 @@ lsof /dev/cu.usbmodem101
 | Message or symptom | Action |
 | --- | --- |
 | `colormeasure.drivers.pr.PR655`, `colormeasure.colorimetry.spectra2XYZ`, or CIE observer data is missing in a custom script | Add `src` as shown in [driver setup](api.md#direct-acquisition) and retain `resources/colorimetry`. |
-| `serialport` is undefined | Update MATLAB to a current release. |
 | No port, busy port, or ambiguous port | Follow [port diagnostics](#port-diagnostics); select the identified port or pass it to `colormeasure.drivers.pr.PR655`. |
 | Cannot open the port, `PR655:RemoteMode`, or initialization timeout | Check the port, completed startup, cable, and other connections. For RS232, check the [serial settings](api.md#connection-options). |
 | `PR655:UnsupportedModel` | Confirm the selected port belongs to the meter. PR-650 is not supported. |
