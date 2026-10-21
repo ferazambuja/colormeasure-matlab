@@ -33,12 +33,12 @@ look at the results window.
    Answer the final prompt and add a note if helpful.
 4. **Open an [instrument test issue](https://github.com/ferazambuja/colormeasure-matlab/issues/new?template=instrument-test.yml)**
    and share the result and any error, even if the check fails. You can attach
-   the ZIP from **Desktop → ColorMeasurement-Reports**. MATLAB prints its location.
+   the ZIP; MATLAB prints its location, normally **Desktop → ColorMeasurement-Reports**.
 
 Issue attachments are public. The ZIP holds your readings, the instrument's
 serial number and settings, and file paths that can show your computer user
-name. To keep those private, leave the ZIP out and paste the result and any
-error message instead. The [feedback guide](../feedback.md) has more help.
+name. To keep those private, leave the ZIP out and remove personal details
+from any error text or screenshots you share. The [feedback guide](../feedback.md) has more help.
 
 After a passed check, the app reopens. Select **New batch** and choose a save
 folder for your own measurements, or stop there. For further use, see the

@@ -14,6 +14,7 @@ Nothing is uploaded automatically, and issue attachments are public. The ZIP
 holds your readings, the instrument's serial number and settings, and file
 paths that can show your computer user name. To keep those private, leave the
 ZIP out; the `Result` line in the report folder's `report.txt` gives the outcome.
+Review error text and screenshots too, removing any details you want private.
 
 ## Without an instrument
 

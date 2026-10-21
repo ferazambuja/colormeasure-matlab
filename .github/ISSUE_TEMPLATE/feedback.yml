@@ -5,7 +5,7 @@ body:
     id: feedback
     attributes:
       label: What did you try, and what happened?
-      description: For a problem, include steps, expected behavior and any error. Screenshots are welcome.
+      description: Include steps, expected behavior and any error. Screenshots help. Remove personal details from anything you share.
     validations:
       required: true
   - type: input

@@ -6,7 +6,7 @@ A MATLAB measurement app with instrument drivers for
 [Konica Minolta CS-2000 and CS-2000A](docs/drivers/cs2000/README.md).
 Collect readings, compare samples and save results for your own MATLAB scripts.
 
-**[Download the UI + drivers ZIP](https://github.com/ferazambuja/colormeasure-matlab/releases/download/v0.1.0-beta.2/ColorMeasurement-MATLAB-Beta.zip)**
+**[Download the UI + drivers ZIP](https://github.com/ferazambuja/colormeasure-matlab/releases/download/v0.1.0-beta.3/ColorMeasurement-MATLAB-Beta.zip)**
 
 Runs inside **MATLAB R2026b or newer**, with the JVM enabled.
 
@@ -80,12 +80,12 @@ look at the results window.
    Answer the final prompt and add a note if helpful.
 4. **Open an [instrument test issue](https://github.com/ferazambuja/colormeasure-matlab/issues/new?template=instrument-test.yml)**
    and share the result and any error, even if the check fails. You can attach
-   the ZIP from **Desktop → ColorMeasurement-Reports**. MATLAB prints its location.
+   the ZIP; MATLAB prints its location, normally **Desktop → ColorMeasurement-Reports**.
 
 Issue attachments are public. The ZIP holds your readings, the instrument's
 serial number and settings, and file paths that can show your computer user
-name. To keep those private, leave the ZIP out and paste the result and any
-error message instead.
+name. To keep those private, leave the ZIP out and remove personal details
+from any error text or screenshots you share.
 
 After a passed check, the app reopens. Select **New batch** and choose a save
 folder for your own measurements, or stop there. See the
