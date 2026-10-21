@@ -6,7 +6,7 @@ A MATLAB measurement app with instrument drivers for
 [Konica Minolta CS-2000 and CS-2000A](docs/drivers/cs2000/README.md).
 Collect readings, compare samples and save results for your own MATLAB scripts.
 
-**[Download the UI + drivers ZIP](https://github.com/ferazambuja/colormeasure-matlab/releases/download/v0.1.0-beta.3/ColorMeasurement-MATLAB-Beta.zip)**
+**[Download the UI + drivers ZIP](https://github.com/ferazambuja/colormeasure-matlab/releases/download/v0.1.0-beta.4/ColorMeasurement-MATLAB-Beta.zip)**
 
 Runs inside **MATLAB R2026b or newer**, with the JVM enabled.
 
