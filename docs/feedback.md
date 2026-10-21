@@ -21,4 +21,5 @@ Review error text and screenshots too, removing any details you want private.
 Try the [demo](beta-testing/README.md#open-the-demo), then
 [report a problem or suggestion](https://github.com/ferazambuja/colormeasure-matlab/issues/new?template=feedback.yml).
 Say what you tried, what happened and your MATLAB release and operating system.
-Screenshots help with window or chart issues.
+Screenshots help with window or chart issues; the window's **Folder** line can
+show your user name.
