@@ -19,8 +19,6 @@ arguments
 end
 session = []; report = struct();
 catalog = colormeasure.ui.deviceCatalog();
-% Instrument entries identify their owning driver folder.
-catalog = catalog(~cellfun(@isempty,{catalog.folder}));
 if isempty(model)
     [index, accepted] = listdlg('PromptString','Which instrument will you check?', ...
         'ListString',{catalog.label},'SelectionMode','single','ListSize',[360 160]);
