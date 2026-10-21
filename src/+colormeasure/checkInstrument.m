@@ -204,7 +204,7 @@ archiveReport(); clear cleanup
             % Default copy refuses any occupied path, including dangling links,
             % without requiring hard-link support from the destination filesystem.
             java.nio.file.Files.copy(java.io.File(staged).toPath(), ...
-                java.io.File(archivePath).toPath());
+                java.io.File(archivePath).toPath(),javaArray('java.nio.file.CopyOption',0));
             clear stagedCleanup
             fprintf('\nInstrument check: %s\nReport ZIP:\n%s\n',report.status,archivePath);
             fprintf('Reports include readings, instrument serial/settings, and paths that can show your user name.\n');

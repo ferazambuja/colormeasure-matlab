@@ -25,7 +25,7 @@ if replaceExisting
 else
     try
         java.nio.file.Files.copy(java.io.File(staged).toPath(), ...
-            java.io.File(filename).toPath());
+            java.io.File(filename).toPath(),javaArray('java.nio.file.CopyOption',0));
     catch problem
         if contains(problem.message,'FileAlreadyExistsException'), rethrow(problem); end
         error('Measurement:SavePublicationFailed', ...
