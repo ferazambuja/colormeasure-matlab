@@ -79,8 +79,8 @@ look at the results window.
 3. When the window opens, check the readings and plots, then close it.
    Answer the final prompt and add a note if helpful.
 4. **Open an [instrument test issue](https://github.com/ferazambuja/colormeasure-matlab/issues/new?template=instrument-test.yml)**
-   and attach the ZIP from **Desktop → ColorMeasurement-Reports**, even if the
-   check fails. MATLAB prints its location and the feedback link.
+   and share the result and any error, even if the check fails. You can attach
+   the ZIP from **Desktop → ColorMeasurement-Reports**. MATLAB prints its location.
 
 After a passed check, the app reopens automatically. You can stop there.
 Issue attachments are public. The ZIP holds your readings, the instrument's

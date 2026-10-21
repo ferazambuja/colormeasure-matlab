@@ -103,7 +103,7 @@ try
     colormeasure.session.saveMatFile(filename,struct('analysis',42),false);
     verifyFail(t,'An invalid publication path must be refused.');
 catch problem
-    verifyEqual(t,problem.identifier,'Measurement:SaveLinkFailed');
+    verifyEqual(t,problem.identifier,'Measurement:SavePublicationFailed');
     verifySubstring(t,problem.message,'Cause:');
 end
 verifyEmpty(t,dir(fullfile(t.TestData.folder,'*.part.mat')));

@@ -627,9 +627,8 @@ eligible spectra; matching plots alone do not establish that eligibility.
 
 The derived result has its own labels, preview and **Export analysis MAT...** action.
 Choose a folder, then enter a new `.mat` filename. Existing files are kept;
-the export does not offer Replace. The file is staged and then published as a
-hard link that cannot replace a name created in the meantime, so the folder must
-be on a filesystem with hard links (not exFAT, FAT32 or many SMB mounts).
+the export does not offer Replace. If another file takes the chosen name while
+saving, choose a different name and try again.
 Cancelling either dialog keeps the applied view.
 It does not replace readings in the table or saved batch. Export retains source
 readings, selected references and calculation assumptions. See the

@@ -206,11 +206,9 @@ is an explicit operation through the stage controller. On success, the sequence
 saves and clears its readings but does not return the stage automatically.
 Automatic saves choose the next unused `csN.mat` name, skipping files and
 folders that already use that name. Publication refuses a destination created
-in the meantime. That exclusive publication creates a hard link, so the
-destination folder must be on a filesystem with hard links; exFAT, FAT32 and
-many SMB mounts fail with `Measurement:SaveLinkFailed` inside `CS2000:SaveFailed`.
+in the meantime, including a name occupied by a symbolic link.
 A failed save keeps the completed readings and counter intact; use `meter.Save`,
-which replaces rather than links, to save them deliberately before clearing the
+which allows replacement, to save them deliberately before clearing the
 history.
 
 Available-port lists can become stale before opening. Serial drivers, OS

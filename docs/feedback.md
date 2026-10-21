@@ -13,7 +13,8 @@ testLabInstrument
 2. Confirm three readings of the same steady target.
 3. Inspect the results window, close it and answer the final prompt.
 4. Open an [instrument test issue](https://github.com/ferazambuja/colormeasure-matlab/issues/new?template=instrument-test.yml)
-   and attach the report ZIP from **Desktop → ColorMeasurement-Reports**.
+   and share the result and any error. You can attach the report ZIP from
+   **Desktop → ColorMeasurement-Reports**.
    Send feedback even if the check fails; if no ZIP was created, paste the error.
 
 After a passed check, the app reopens. Select **New batch** to try your own

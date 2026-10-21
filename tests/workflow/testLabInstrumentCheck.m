@@ -136,6 +136,25 @@ verifyEqual(t,fileparts(r.folder),fullfile(t.TestData.folder,'reports'));
 verifyEqual(t,fileparts(r.archive),fullfile(t.TestData.folder,'reports'));
 verifyTrue(t,isfile(r.archive));verifyEqual(t,r.status,'passed');
 end
+function testDanglingReportArchiveLinkIsNeverReplaced(t)
+assumeFalse(t,ispc,'This symbolic-link fixture uses the POSIX ln command.');
+[a,io,interaction]=fixture('CR250'); %#ok<ASGLU> a and io are used by evalc below.
+target=fullfile(t.TestData.folder,'unrelated.zip');
+interaction.notes=@occupyArchive;r=[];s=[];
+output=evalc('[r,s]=run(t,''CR250'',a,io,interaction);');
+verifyEqual(t,r.status,'report-error');verifyTrue(t,s.finished);
+verifyTrue(t,java.nio.file.Files.isSymbolicLink(java.io.File(r.archive).toPath()));
+verifyFalse(t,isfile(target));
+verifyFalse(t,contains(output,'Report ZIP:'));
+verifyEmpty(t,dir(fullfile(t.TestData.folder,'*.part.zip')));
+    function text=occupyArchive()
+        found=dir(fullfile(t.TestData.folder,'instrument-check-*'));
+        path=fullfile(t.TestData.folder,[found(1).name '.zip']);
+        [status,message]=system(sprintf('ln -s ''%s'' ''%s''',target,path));
+        assert(status==0,'LabCheck:LinkFixture','Cannot create symbolic-link fixture: %s',message);
+        text='';
+    end
+end
 function testUnconfirmedReleaseStopsAfterSettings(t)
 [a,io,interaction]=fixture('CR250');a.release=@failRelease;
 [r,s]=run(t,'CR250',a,io,interaction);

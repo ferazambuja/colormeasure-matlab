@@ -19,7 +19,7 @@ arguments
 end
 session = []; report = struct();
 catalog = colormeasure.ui.deviceCatalog();
-% Direct entries own a driver folder; an optional backend entry has none.
+% Instrument entries identify their owning driver folder.
 catalog = catalog(~cellfun(@isempty,{catalog.folder}));
 if isempty(model)
     [index, accepted] = listdlg('PromptString','Which instrument will you check?', ...
@@ -195,21 +195,20 @@ archiveReport(); clear cleanup
         archiveAttempted=true;
         try
             checkpoint();
-            % Only this newly reserved folder is included. Existing student data
+            % Only this newly reserved folder is included. Existing measurement data
             % and other folders are never gathered into the feedback archive.
             [reportParent,stem]=fileparts(folder);
             staged=[tempname(reportParent) '.part.zip'];
             stagedCleanup=onCleanup(@()removeStagedArchive(staged));
             zip(staged,{stem},reportParent);
-            % Never replace an occupied name. The reserved folder makes the name
-            % unique, so a checked move suffices; unlike a hard link it also
-            % works on exFAT, FAT32 and SMB folders.
-            assert(~isfile(archivePath)&&~isfolder(archivePath),'Measurement:CheckReportExists', ...
-                'A file or folder already uses the report ZIP name: %s',archivePath);
-            movefile(staged,archivePath);
+            % Default copy refuses any occupied path, including dangling links,
+            % without requiring hard-link support from the destination filesystem.
+            java.nio.file.Files.copy(java.io.File(staged).toPath(), ...
+                java.io.File(archivePath).toPath());
             clear stagedCleanup
             fprintf('\nInstrument check: %s\nReport ZIP:\n%s\n',report.status,archivePath);
-            fprintf('Review before sharing: includes readings, device details and local paths. Nothing was uploaded.\n');
+            fprintf('Reports include readings, instrument serial/settings, and paths that can show your user name.\n');
+            fprintf('Issue attachments are public; you can share only the result and error. Nothing was uploaded.\n');
             if ~isempty(session)&&isvalid(session)&&~session.finished
                 fprintf('Open the retained batch for recovery: colormeasure.app(''%s'')\n',model);
             end
@@ -268,7 +267,7 @@ if isfile(file)
     data=jsondecode(fileread(file));
     identity.sourceCommit=data.sourceCommit;
     identity.manifestSHA256=colormeasure.fileDigest(file);
-    identity.description='Standalone MATLAB package';
+    identity.description='MATLAB app and drivers package';
 end
 end
 function writeText(filename,text)
