@@ -3,7 +3,9 @@
 ## With an instrument
 
 Extract the download, set MATLAB's **Current Folder** to
-**ColorMeasurement-MATLAB** (or to your clone of the repository), then run:
+**ColorMeasurement-MATLAB** (or to your clone of the repository).
+
+Open [testLabInstrument.m](../testLabInstrument.m) and click **Run**, or enter:
 
 ```matlab
 testLabInstrument

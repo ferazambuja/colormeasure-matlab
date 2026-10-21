@@ -1,5 +1,6 @@
 % TESTLABINSTRUMENT Guided feedback check of one connected instrument.
-% Run from the extracted package folder. No results are uploaded automatically.
+% Open this file in MATLAB and select Run. A passed check reopens the app.
+% No results are uploaded automatically.
 % Fernando Voltolini de Azambuja, 2026.
 addpath(fullfile(fileparts(mfilename('fullpath')), 'src'));
 [labInstrumentReport, labInstrumentSession] = colormeasure.checkInstrument();

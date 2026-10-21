@@ -8,10 +8,10 @@ Screenshots show generated demo readings.
 ![Current direct UI with generated CR-250 readings](images/direct-serial-gallery.jpg)
 
 Follow the relevant [instrument setup guide](../../README.md#use-the-drivers-in-your-scripts),
-then run `setupColorMeasure` from the extracted folder and open the app:
+then open [openColorMeasure.m](../../openColorMeasure.m) and click **Run**, or enter:
 
 ```matlab
-colormeasure.app
+openColorMeasure
 ```
 
 Choose the instrument. **Measurement save folder** explains where results will

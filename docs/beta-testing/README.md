@@ -18,7 +18,7 @@ Explore **Data**, **Compare**, **Color** and **Settings...**, or try
 
 ## Test a lab instrument
 
-From the extracted folder, run:
+Open [testLabInstrument.m](../../testLabInstrument.m) and click **Run**, or enter:
 
 ```matlab
 testLabInstrument
@@ -35,7 +35,8 @@ look at the results window.
    and share the result and any error, even if the check fails. You can attach
    the ZIP from **Desktop → ColorMeasurement-Reports**. MATLAB prints its location.
 
-After a passed check, the app reopens automatically. You can stop there.
+After a passed check, the app reopens automatically. Select **New batch** for
+your own measurements, or stop there.
 Issue attachments are public. The ZIP holds your readings, the instrument's
 serial number and settings, and file paths that can show your computer user
 name. To keep those private, leave the ZIP out and paste the result and any
@@ -44,6 +45,11 @@ See the [feedback guide](../feedback.md) for help.
 
 For further use, see the [window guide](../ui/README.md) and
 [saved-data examples](../saved-data.md).
+
+## Open the app directly
+
+Open [openColorMeasure.m](../../openColorMeasure.m) and click **Run**. Choose
+your instrument and save folder, then select **Measure** when ready.
 
 ## What the device test checks
 

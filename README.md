@@ -67,6 +67,8 @@ No instrument is needed.
 
 ### Test an instrument and share feedback
 
+Open [testLabInstrument.m](testLabInstrument.m) and click **Run**, or enter:
+
 ```matlab
 testLabInstrument
 ```
@@ -91,16 +93,16 @@ See the [feedback guide](docs/feedback.md) for help or other feedback.
 
 ## Use the app
 
-For your own measurements, run from the extracted folder:
+Open [openColorMeasure.m](openColorMeasure.m) and click **Run**, or enter:
 
 ```matlab
-setupColorMeasure
-session = colormeasure.app;   % choose a model and save folder
+openColorMeasure
 ```
 
-Opening the window never measures automatically. Select **Measure** for each
-reading and **Finish batch** when done. Closing the window hides the retained
-batch; **New batch** creates a separate collection.
+Choose your instrument and save folder. Opening the window never measures
+automatically. Select **Measure** for each reading and **Finish batch** when done.
+Closing the window hides the retained batch; **New batch** creates a separate
+collection.
 
 ## Your data belongs in your MATLAB workflow
 
