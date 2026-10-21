@@ -106,6 +106,19 @@ json=jsondecode(fileread(fullfile(r.folder,'report.json')));verifyEqual(t,json.s
         mkdir(fullfile(t.TestData.folder,[found(1).name '.zip']));text='';
     end
 end
+function testFailedArchiveKeepsRecoveryAndPrivacyGuidance(t)
+[a,io,interaction]=fixture('CR250'); %#ok<ASGLU> a and io are used by evalc below.
+interaction.confirm=@(~)false;interaction.notes=@blockArchive;r=[];s=[];
+output=evalc('[r,s]=run(t,''CR250'',a,io,interaction);');
+verifyEqual(t,r.status,'report-error');verifyFalse(t,s.finished);
+verifyFalse(t,contains(output,'Report ZIP:'));
+verifyEqual(t,count(output,'Open the retained batch for recovery'),1);
+verifyEqual(t,count(output,'Issue attachments are public'),1);
+    function text=blockArchive()
+        found=dir(fullfile(t.TestData.folder,'instrument-check-*'));
+        mkdir(fullfile(t.TestData.folder,[found(1).name '.zip']));text='';
+    end
+end
 function testExistingReportArchiveIsNeverReplaced(t)
 [a,io,interaction]=fixture('CR250'); %#ok<ASGLU> a and io are used by evalc below.
 interaction.notes=@occupyArchive;r=[];s=[];

@@ -1,11 +1,12 @@
 function [report, session] = checkInstrument(model, options)
 % CHECKINSTRUMENT Guide an instrument check and collect a local feedback ZIP.
-%   [report, session] = colormeasure.checkInstrument() asks for one instrument,
+%   [report, session] = colormeasure.checkInstrument() asks for one instrument
 %   and its port. Reports default to Desktop/ColorMeasurement-Reports (or the
-%   user home folder when Desktop is absent). Every reading requires confirmation. Repeat
-%   separately for each available instrument. This checks communication, saving
-%   and the window, not calibration or optical accuracy. No automatic upload,
-%   port probing, calibration, settings sweep or acquisition retry is performed.
+%   user home folder when Desktop is absent). Every reading requires
+%   confirmation. Repeat separately for each available instrument. This checks
+%   communication, saving and the window, not calibration or optical accuracy.
+%   No automatic upload, port probing, calibration, settings sweep or
+%   acquisition retry is performed.
 %   Keep session alive after a failure; use its normal recovery controls.
 %   Destination, Adapter, Services and Interaction support software checks using
 %   synthetic adapters and noninteractive callbacks; they are not hardware proof.
@@ -206,10 +207,6 @@ archiveReport(); clear cleanup
             clear stagedCleanup
             fprintf('\nInstrument check: %s\nReport ZIP:\n%s\n',report.status,archivePath);
             fprintf('Reports include readings, instrument serial/settings, and paths that can show your user name.\n');
-            fprintf('Issue attachments are public; you can share only the result and error. Nothing was uploaded.\n');
-            if ~isempty(session)&&isvalid(session)&&~session.finished
-                fprintf('Open the retained batch for recovery: colormeasure.app(''%s'')\n',model);
-            end
         catch archiveError
             fprintf(2,'Could not complete report ZIP: %s\nRetained files: %s\n',archiveError.message,folder);
             report.status='report-error';
@@ -220,6 +217,13 @@ archiveReport(); clear cleanup
                 % above remains the fallback. Never report a ZIP as complete.
             end
         end
+        % Recovery and sharing guidance apply whether or not the ZIP was written;
+        % a failure message above shows the report folder's full path.
+        if ~isempty(session)&&isvalid(session)&&~session.finished
+            fprintf('Open the retained batch for recovery: colormeasure.app(''%s'')\n',model);
+        end
+        fprintf(['Nothing was uploaded. Issue attachments are public; to keep details private, ' ...
+            'leave the ZIP out and remove personal details from any error text or screenshots you share.\n']);
         fprintf('Share feedback: https://github.com/ferazambuja/colormeasure-matlab/issues/new?template=instrument-test.yml\n');
     end
 end
