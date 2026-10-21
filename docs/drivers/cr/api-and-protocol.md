@@ -1,11 +1,7 @@
 # CR API and protocol reference
 
-For the optional measurement window, add the repository `src` folder to the
-MATLAB path and run:
-
-```matlab
-session = colormeasure.app('CR250'); % or 'CR100' / 'CR300'
-```
+For the app, open [openColorMeasure.m](../../../openColorMeasure.m), click
+**Run** and choose your CR model.
 
 See the [CR window guide](shared-ui.md) for that workflow. For direct acquisition,
 start with the [measure/save/load example](README.md). This reference covers

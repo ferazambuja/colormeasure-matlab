@@ -4,13 +4,10 @@ Measure spectra and instrument-calculated XYZ, save readings to a MAT file,
 and load them for analysis. The `colormeasure.drivers.cs2000` driver reads the current result
 without overwriting the instrument's stored measurements.
 
-The optional [measurement window](batch-and-ui.md) provides named samples,
-plots and batch saving in MATLAB **R2026b or newer**. Add `src` as described
-in [installation](../../../README.md#start-here), then run:
-
-```matlab
-session = colormeasure.app('CS2000');
-```
+For named samples, plots and batch saving, open
+[openColorMeasure.m](../../../openColorMeasure.m) in MATLAB **R2026b or newer**,
+click **Run** and choose **CS-2000**. The
+[CS-2000 window guide](batch-and-ui.md) explains its settings and results.
 
 For command-line measurement, follow the steps below.
 

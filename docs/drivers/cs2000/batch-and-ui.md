@@ -4,13 +4,9 @@ The window acquires spectra and instrument-calculated XYZ with
 `colormeasure.drivers.cs2000.CS2000`. It provides the ordinary acquisition
 workflow; manual and goniometer variants use separate APIs.
 
-With the repository `src` folder on the MATLAB path:
-
-```matlab
-session = colormeasure.app('CS2000');
-```
-
-For custom connection options, `session = colormeasure.drivers.cs2000.measureCS2000` opens the same workflow.
+Open [openColorMeasure.m](../../../openColorMeasure.m) in MATLAB, click **Run**
+and choose **CS-2000**. For scripted launch options, add **src** to the path and
+use `session = colormeasure.drivers.cs2000.measureCS2000(...)`.
 The window requires MATLAB R2026b or newer. The shared [window guide](../../ui/README.md)
 covers choosing a destination, naming samples, starting each measurement,
 inspecting results and finishing the batch. It also explains closing/restoring

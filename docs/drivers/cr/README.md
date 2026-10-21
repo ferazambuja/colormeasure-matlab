@@ -1,11 +1,7 @@
 # Colorimetry Research measurements
 
-For a measurement window with named samples, batch saving and plots, use MATLAB
-R2026b or newer. Add `src` as described in [installation](../../../README.md#start-here), then run:
-
-```matlab
-session = colormeasure.app('CR250'); % or 'CR100' / 'CR300'
-```
+For the app, open [openColorMeasure.m](../../../openColorMeasure.m) in MATLAB
+**R2026b or newer**, click **Run** and choose your CR model.
 
 The [CR window guide](shared-ui.md) explains model-specific settings and
 results. The command-line workflow below uses the `colormeasure.drivers.cr` driver directly.

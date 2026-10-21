@@ -6,7 +6,7 @@ A MATLAB measurement app with instrument drivers for
 [Konica Minolta CS-2000 and CS-2000A](docs/drivers/cs2000/README.md).
 Collect readings, compare samples and save results for your own MATLAB scripts.
 
-**[Download the UI + drivers ZIP](https://github.com/ferazambuja/colormeasure-matlab/releases/download/v0.1.0-beta.1/ColorMeasurement-MATLAB-Beta.zip)**
+**[Download the UI + drivers ZIP](https://github.com/ferazambuja/colormeasure-matlab/releases/download/v0.1.0-beta.2/ColorMeasurement-MATLAB-Beta.zip)**
 
 Runs inside **MATLAB R2026b or newer**, with the JVM enabled.
 
@@ -148,7 +148,8 @@ MAT/CSV contents and recovery. Native drivers live under
 `colormeasure.drivers.pr`, `colormeasure.drivers.cr` and
 `colormeasure.drivers.cs2000`. The [colorimetry guide](docs/colorimetry/README.md)
 covers spectral integration, chromaticity, Lab, color differences, adaptation
-and reference-based reflectance calculations.
+and reference-based reflectance calculations. For code changes, see the
+[software testing reference](docs/testing/workflow.md).
 
 [Acquisition science](docs/session/color-science.md) and
 [color calculations](docs/colorimetry/science.md) document equations, sources,
@@ -160,12 +161,9 @@ Developed by Fernando Voltolini de Azambuja. Application code is available under
 the [MIT license](LICENSE.txt). Third-party contributions and reference data are
 credited in [credits and data licenses](docs/credits.md).
 
-## More guides
+## Guides
 
-- [How the app, drivers and saved data work together](docs/overview.md)
-- [Window controls, chart continuation, settings and analysis](docs/ui/README.md)
-- [Demo and device-check walkthrough](docs/beta-testing/README.md)
-- [Share device-test results or report a problem](docs/feedback.md)
-- [Session API, saving and recovery](docs/session/README.md)
-- [Saved-data structure and import examples](docs/saved-data.md)
-- [Software testing reference](docs/testing/workflow.md)
+- [Choose how to use the app and drivers](docs/overview.md)
+- [Use the window, charts, settings and analysis](docs/ui/README.md)
+- [Load saved data into your MATLAB scripts](docs/saved-data.md)
+- [Try the demo or send device-test feedback](docs/beta-testing/README.md)

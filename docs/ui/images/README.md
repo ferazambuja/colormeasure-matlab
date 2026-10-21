@@ -1,8 +1,6 @@
 # Window screenshots
 
-Every image shows generated readings and settings in MATLAB R2026b on macOS.
-No physical instrument was operated. The images do not establish calibration,
-measurement accuracy, keyboard access or screen-reader support.
+Screenshots show generated demo readings and settings in MATLAB R2026b on macOS.
 
 | Image | Shows |
 | --- | --- |

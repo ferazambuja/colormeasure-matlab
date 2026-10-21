@@ -2,13 +2,9 @@
 
 Use `colormeasure.drivers.cs2000.CS2000` for command-line acquisition and retained native data.
 The [measurement guide](README.md) gives a complete measure/save/load example.
-For the optional window, add the repository `src` folder to the path and run:
-
-```matlab
-session = colormeasure.app('CS2000');
-```
-
-For custom connection options, `session = colormeasure.drivers.cs2000.measureCS2000` is also available.
+For the app, open [openColorMeasure.m](../../../openColorMeasure.m), click
+**Run** and choose **CS-2000**. For scripted launch options, add **src** to the
+path and use `session = colormeasure.drivers.cs2000.measureCS2000(...)`.
 The [window guide](batch-and-ui.md) describes its automatic settings and batch
 workflow; the window requires MATLAB R2026b or newer.
 

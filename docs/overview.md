@@ -1,46 +1,39 @@
-# How Color Measurement works
+# Choose how to use Color Measurement
 
-The app and MATLAB commands use the same instrument drivers and batch records.
-You can use the graphical workflow, collect a batch from a script, or use a
-driver directly without opening the app.
+Use the app for interactive readings, a Session for scripted batches, or an
+instrument driver for direct control. All three run inside MATLAB.
 
-## A reading in the app
+## Use the app
 
-1. Choose an instrument, port and save folder. Opening the app does not measure.
-2. Select **Measure**. The instrument's driver connects, checks its identity,
-   applies the app's acquisition settings and requests one reading.
-3. The session retains a complete reading, releases the connection and saves a
-   MAT snapshot. The window shows the saved values, plots and status.
-4. Repeat as needed, then select **Finish batch** to export CSV.
+Open [openColorMeasure.m](../openColorMeasure.m) and click **Run**. Choose an
+instrument and save folder, then select its port in the window if needed.
+Select **Measure** for each reading and **Finish batch** when done.
 
-If measurement or saving fails, inspect the status and use the recovery controls.
-The [window guide](ui/README.md) explains those actions, capture settings,
-comparisons and guided charts.
+The app shows spectra and chromaticity, compares samples, offers color analysis
+and guides chart readings one patch at a time. Each batch saves complete MAT
+records; Finish also exports CSV. The [window guide](ui/README.md) explains the
+controls and recovery actions.
 
-## Drivers, sessions and calculations
+To explore without hardware, run [demoDirectInstruments.m](../demoDirectInstruments.m).
+For a first connected-instrument test and feedback report, run
+[testLabInstrument.m](../testLabInstrument.m). The
+[quick start](beta-testing/README.md) explains both routes.
 
-- **Drivers** own serial communication, device settings, response parsing and
-  instrument-specific records. Start with the [PR](drivers/pr/README.md),
-  [CR](drivers/cr/README.md) or [CS-2000](drivers/cs2000/README.md) guide.
-- **Sessions** collect named readings, notes and settings in a batch, save them
-  and support recovery. The [session API](session/README.md) also works without
-  a window.
-- **The UI** presents the session and its actions. Chart mode adds patch
-  positions, repeated attempts and selected readings to that same batch.
-- **Color calculations** derive previews, comparisons and analysis from retained
-  measurements. The [colorimetry guide](colorimetry/README.md) explains methods,
-  units and reference whites. These views do not overwrite acquired data.
+## Use your own scripts
 
-## Use the saved results
+- **Drivers** give you serial communication, device settings and native readings.
+  Start with the [PR-655](drivers/pr/README.md), [CR-100/250/300](drivers/cr/README.md)
+  or [CS-2000/2000A](drivers/cs2000/README.md) examples.
+- **Sessions** add sample names, notes, batch saving and recovery to driver
+  acquisition. See the [Session API](session/README.md).
+- **Color calculations** work with retained measurements. See the
+  [colorimetry guide](colorimetry/README.md) for functions, units and references.
 
-`measurements.mat` is the complete record, stored as ordinary MATLAB structs.
-CSV is a convenient supporting table; chart CSV contains selected chart results.
-Loading a MAT file needs neither the app nor a connected instrument.
+## Use your saved results
 
-See the [file structure and import examples](saved-data.md), or run
-[`examples/loadSavedBatch.m`](../examples/loadSavedBatch.m).
+Load **measurements.mat** as ordinary MATLAB structs. It contains complete
+readings, settings/metadata and batch information. Guided charts also retain
+attempts and source history. Loading it does not connect to an instrument.
 
-The [demo](beta-testing/README.md#open-the-demo) uses generated readings.
-The optional [instrument check](feedback.md) collects three real readings and a
-local feedback report. Neither software tests nor a successful device check
-establish instrument calibration or optical accuracy.
+Read the [file structure and import examples](saved-data.md), or run
+[examples/loadSavedBatch.m](../examples/loadSavedBatch.m).

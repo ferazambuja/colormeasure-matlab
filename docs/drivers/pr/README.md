@@ -1,13 +1,8 @@
 # PR-655 measurements in MATLAB
 
-For a graphical workflow, use MATLAB **R2026b or newer**. Add the repository
-`src` folder to the MATLAB path as described in [installation](../../../README.md#start-here), then run:
-
-```matlab
-session = colormeasure.app('PR655');
-```
-
-Follow the [measurement-window guide](../../ui/README.md).
+For the app, open [openColorMeasure.m](../../../openColorMeasure.m) in MATLAB
+**R2026b or newer**, click **Run** and choose **PR-655**. Follow the
+[measurement-window guide](../../ui/README.md).
 The steps below collect and save a batch from MATLAB commands.
 
 - [Setup](#setup)

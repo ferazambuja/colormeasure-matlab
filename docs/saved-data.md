@@ -74,8 +74,9 @@ CSV does not contain every raw report or native field retained in MAT.
 - `acquisitionComplete`, which describes acquisition completion, not CSV success
   or instrument calibration.
 - Host-requested `configuration`, distinct from device-reported settings.
-- `segmentId`, connection-cleanup/continuation guard and recorded cleanup declarations.
-- `readingAnnotations` and `annotationRevision`, preserving annotation edit history.
+- `segmentId`, connection-cleanup status and any recorded cleanup confirmations.
+- `readingAnnotations` and `annotationRevision`, preserving original annotations
+  and the latest edit information.
 - `chart` for guided runs: definition, cells, passes, attempts, selected results,
   references/context and linked source records; `pendingSample` also exists there.
 

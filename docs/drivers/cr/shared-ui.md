@@ -1,14 +1,8 @@
 # CR measurements in the window
 
-With the repository `src` folder on the MATLAB path, run:
-
-```matlab
-session = colormeasure.app('CR250'); % or 'CR100' / 'CR300'
-```
-
-The model-specific launcher is
-`session = colormeasure.drivers.cr.measureCR250` (`colormeasure.drivers.cr.measureCR100` or `colormeasure.drivers.cr.measureCR300` for the other models).
-Opening the window does not take a measurement. Follow the
+Open [openColorMeasure.m](../../../openColorMeasure.m) in MATLAB, click **Run**
+and choose **CR-100**, **CR-250** or **CR-300**. Opening the window takes no reading.
+Follow the
 [measurement-window guide](../../ui/README.md)
 for naming samples, selecting a port, measuring, viewing results and finishing
 a batch. The differences specific to CR instruments are described below.

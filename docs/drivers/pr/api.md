@@ -1,7 +1,7 @@
 # PR-655 driver API
 
-For a graphical workflow in MATLAB R2026b or newer, add the repository `src`
-folder to the path and run `session = colormeasure.app('PR655')`. Follow
+For the app, open [openColorMeasure.m](../../../openColorMeasure.m), click
+**Run** and choose **PR-655**. Follow
 the [measurement-window guide](../../ui/README.md).
 For a first command-line batch, see the [measurement guide](README.md).
 
